@@ -203,7 +203,7 @@
             </objects>
             <point key="canvasLocation" x="1145.5" y="-925.5"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Home-->
         <scene sceneID="eRA-sn-jCI">
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="o5f-Yz-ZNd" customClass="HomeViewController" sceneMemberID="viewController">
@@ -246,6 +246,11 @@
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ss1-pu-aGD">
                                 <rect key="frame" x="228" y="97" width="71" height="71"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="side_effects.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jWd-La-nfW">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.15169835400000001" green="0.71221715490000004" blue="0.83854166669999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="buh-6E-r5K">
@@ -262,6 +267,11 @@
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g22-Ai-479">
                                 <rect key="frame" x="125" y="299" width="71" height="71"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="charts.png" translatesAutoresizingMaskIntoConstraints="NO" id="0dn-7Y-7cQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.15169835400000001" green="0.71221715490000004" blue="0.83854166669999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="lab results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaB-NZ-4xj">
@@ -311,7 +321,7 @@
                             <constraint firstItem="g22-Ai-479" firstAttribute="centerX" secondItem="oQO-qP-MNk" secondAttribute="centerX" id="xun-Pj-rGR"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6KQ-1o-CJK"/>
+                    <navigationItem key="navigationItem" title="Home" id="6KQ-1o-CJK"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="lab_result" destination="0WG-rJ-6Yx" id="ong-Q3-BLO"/>
@@ -386,11 +396,13 @@
     <resources>
         <image name="COPDWrapper.jpg" width="750" height="1334"/>
         <image name="alerts-32.png" width="32" height="32"/>
+        <image name="charts.png" width="434" height="290"/>
         <image name="doctor-32.png" width="32" height="32"/>
         <image name="home-32.png" width="32" height="32"/>
         <image name="homewall.jpg" width="1080" height="1920"/>
         <image name="lab_results.jpeg" width="225" height="225"/>
         <image name="med-32.png" width="32" height="32"/>
         <image name="medical_history.jpg" width="147" height="151"/>
+        <image name="side_effects.jpeg" width="275" height="183"/>
     </resources>
 </document>
