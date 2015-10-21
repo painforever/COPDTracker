@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41B1BD7E4760088F6B9 /* main.m */; };
+		CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */; };
+		CF8BC4251BD7E4760088F6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4231BD7E4760088F6B9 /* Main.storyboard */; };
+		CF8BC4271BD7E4760088F6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4261BD7E4760088F6B9 /* Assets.xcassets */; };
+		CF8BC42A1BD7E4760088F6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4281BD7E4760088F6B9 /* LaunchScreen.storyboard */; };
+		CF8BC4321BD7E4C50088F6B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4311BD7E4C50088F6B9 /* Podfile */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4981BD8125A0088F6B9 /* COPDWrapper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */; settings = {ASSET_TAGS = (); }; };
+		CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4A31BD818A10088F6B9 /* alerts-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC49F1BD818A10088F6B9 /* alerts-32.png */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4A41BD818A10088F6B9 /* doctor-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A01BD818A10088F6B9 /* doctor-32.png */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A11BD818A10088F6B9 /* home-32.png */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4A61BD818A10088F6B9 /* med-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A21BD818A10088F6B9 /* med-32.png */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4AF1BD81AA30088F6B9 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B01BD81CE40088F6B9 /* charts.png */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4B61BD81CE40088F6B9 /* medical_history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4B91BD822970088F6B9 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */; settings = {ASSET_TAGS = (); }; };
+		ED413DB9284FB07795296915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB0BB2F15FA6A35CD18843 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3113FA36948B6E70242FC8E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A482122DA58CF5624CB12A4B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF8BC4171BD7E4760088F6B9 /* COPDTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COPDTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8BC41B1BD7E4760088F6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF8BC41D1BD7E4760088F6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF8BC4241BD7E4760088F6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF8BC4261BD7E4760088F6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8BC4291BD7E4760088F6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF8BC42B1BD7E4760088F6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8BC4311BD7E4C50088F6B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = COPDWrapper.jpg; path = Images/COPDWrapper.jpg; sourceTree = "<group>"; };
+		CF8BC49B1BD814E00088F6B9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CF8BC49F1BD818A10088F6B9 /* alerts-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alerts-32.png"; path = "Images/tabbar_icon/alerts-32.png"; sourceTree = "<group>"; };
+		CF8BC4A01BD818A10088F6B9 /* doctor-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "doctor-32.png"; path = "Images/tabbar_icon/doctor-32.png"; sourceTree = "<group>"; };
+		CF8BC4A11BD818A10088F6B9 /* home-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-32.png"; path = "Images/tabbar_icon/home-32.png"; sourceTree = "<group>"; };
+		CF8BC4A21BD818A10088F6B9 /* med-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "med-32.png"; path = "Images/tabbar_icon/med-32.png"; sourceTree = "<group>"; };
+		CF8BC4AD1BD81AA30088F6B9 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
+		CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
+		CF8BC4B01BD81CE40088F6B9 /* charts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charts.png; path = Images/charts.png; sourceTree = "<group>"; };
+		CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lab_results.jpeg; path = Images/lab_results.jpeg; sourceTree = "<group>"; };
+		CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medical_history.jpg; path = Images/medical_history.jpg; sourceTree = "<group>"; };
+		CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = side_effects.jpeg; path = Images/side_effects.jpeg; sourceTree = "<group>"; };
+		CF8BC4B81BD822970088F6B9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CF8BC4B91BD822970088F6B9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homewall.jpg; path = Images/homewall.jpg; sourceTree = "<group>"; };
+		F1AB0BB2F15FA6A35CD18843 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF8BC4141BD7E4760088F6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED413DB9284FB07795296915 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27477A9CEC224516854F7EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1AB0BB2F15FA6A35CD18843 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		376D315D3DEA05291EEEC7E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3113FA36948B6E70242FC8E7 /* Pods.debug.xcconfig */,
+				A482122DA58CF5624CB12A4B /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF8BC40E1BD7E4760088F6B9 = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4961BD8124B0088F6B9 /* Images */,
+				CF8BC4311BD7E4C50088F6B9 /* Podfile */,
+				CF8BC4191BD7E4760088F6B9 /* COPDTracker */,
+				CF8BC4181BD7E4760088F6B9 /* Products */,
+				376D315D3DEA05291EEEC7E0 /* Pods */,
+				27477A9CEC224516854F7EFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF8BC4181BD7E4760088F6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4171BD7E4760088F6B9 /* COPDTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8BC4191BD7E4760088F6B9 /* COPDTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC49A1BD814CB0088F6B9 /* AfterLogin */,
+				CF8BC4991BD814C50088F6B9 /* BeforeLogin */,
+				CF8BC41D1BD7E4760088F6B9 /* AppDelegate.h */,
+				CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */,
+				CF8BC4231BD7E4760088F6B9 /* Main.storyboard */,
+				CF8BC4261BD7E4760088F6B9 /* Assets.xcassets */,
+				CF8BC4281BD7E4760088F6B9 /* LaunchScreen.storyboard */,
+				CF8BC42B1BD7E4760088F6B9 /* Info.plist */,
+				CF8BC41A1BD7E4760088F6B9 /* Supporting Files */,
+			);
+			path = COPDTracker;
+			sourceTree = "<group>";
+		};
+		CF8BC41A1BD7E4760088F6B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC41B1BD7E4760088F6B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF8BC4961BD8124B0088F6B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */,
+				CF8BC4B01BD81CE40088F6B9 /* charts.png */,
+				CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */,
+				CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */,
+				CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */,
+				CF8BC49E1BD818900088F6B9 /* tabbar_icons */,
+				CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		CF8BC4991BD814C50088F6B9 /* BeforeLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC49B1BD814E00088F6B9 /* LoginViewController.h */,
+				CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */,
+			);
+			name = BeforeLogin;
+			sourceTree = "<group>";
+		};
+		CF8BC49A1BD814CB0088F6B9 /* AfterLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4A71BD8199C0088F6B9 /* HomeViews */,
+			);
+			name = AfterLogin;
+			sourceTree = "<group>";
+		};
+		CF8BC49E1BD818900088F6B9 /* tabbar_icons */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC49F1BD818A10088F6B9 /* alerts-32.png */,
+				CF8BC4A01BD818A10088F6B9 /* doctor-32.png */,
+				CF8BC4A11BD818A10088F6B9 /* home-32.png */,
+				CF8BC4A21BD818A10088F6B9 /* med-32.png */,
+			);
+			name = tabbar_icons;
+			sourceTree = "<group>";
+		};
+		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4B81BD822970088F6B9 /* HomeViewController.h */,
+				CF8BC4B91BD822970088F6B9 /* HomeViewController.m */,
+				CF8BC4AC1BD81A870088F6B9 /* CollectionViewCells */,
+			);
+			name = HomeViews;
+			sourceTree = "<group>";
+		};
+		CF8BC4AC1BD81A870088F6B9 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				CF8BC4AD1BD81AA30088F6B9 /* HomeViewCell.h */,
+				CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF8BC4161BD7E4760088F6B9 /* COPDTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8BC42E1BD7E4760088F6B9 /* Build configuration list for PBXNativeTarget "COPDTracker" */;
+			buildPhases = (
+				F7500D105A25D80308F75BE4 /* Check Pods Manifest.lock */,
+				CF8BC4131BD7E4760088F6B9 /* Sources */,
+				CF8BC4141BD7E4760088F6B9 /* Frameworks */,
+				CF8BC4151BD7E4760088F6B9 /* Resources */,
+				B910889EBCA973E7C70E1BB8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COPDTracker;
+			productName = COPDTracker;
+			productReference = CF8BC4171BD7E4760088F6B9 /* COPDTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8BC40F1BD7E4760088F6B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = EFA;
+				TargetAttributes = {
+					CF8BC4161BD7E4760088F6B9 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CF8BC4121BD7E4760088F6B9 /* Build configuration list for PBXProject "COPDTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8BC40E1BD7E4760088F6B9;
+			productRefGroup = CF8BC4181BD7E4760088F6B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF8BC4161BD7E4760088F6B9 /* COPDTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF8BC4151BD7E4760088F6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */,
+				CF8BC42A1BD7E4760088F6B9 /* LaunchScreen.storyboard in Resources */,
+				CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */,
+				CF8BC4981BD8125A0088F6B9 /* COPDWrapper.jpg in Resources */,
+				CF8BC4271BD7E4760088F6B9 /* Assets.xcassets in Resources */,
+				CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */,
+				CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */,
+				CF8BC4B61BD81CE40088F6B9 /* medical_history.jpg in Resources */,
+				CF8BC4A41BD818A10088F6B9 /* doctor-32.png in Resources */,
+				CF8BC4321BD7E4C50088F6B9 /* Podfile in Resources */,
+				CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */,
+				CF8BC4251BD7E4760088F6B9 /* Main.storyboard in Resources */,
+				CF8BC4A31BD818A10088F6B9 /* alerts-32.png in Resources */,
+				CF8BC4A61BD818A10088F6B9 /* med-32.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B910889EBCA973E7C70E1BB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7500D105A25D80308F75BE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8BC4131BD7E4760088F6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
+				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
+				CF8BC4AF1BD81AA30088F6B9 /* HomeViewCell.m in Sources */,
+				CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */,
+				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF8BC4231BD7E4760088F6B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8BC4241BD7E4760088F6B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF8BC4281BD7E4760088F6B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF8BC4291BD7E4760088F6B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF8BC42C1BD7E4760088F6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF8BC42D1BD7E4760088F6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF8BC42F1BD7E4760088F6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3113FA36948B6E70242FC8E7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = COPDTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EFA.COPDTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF8BC4301BD7E4760088F6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A482122DA58CF5624CB12A4B /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = COPDTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EFA.COPDTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8BC4121BD7E4760088F6B9 /* Build configuration list for PBXProject "COPDTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8BC42C1BD7E4760088F6B9 /* Debug */,
+				CF8BC42D1BD7E4760088F6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8BC42E1BD7E4760088F6B9 /* Build configuration list for PBXNativeTarget "COPDTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8BC42F1BD7E4760088F6B9 /* Debug */,
+				CF8BC4301BD7E4760088F6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8BC40F1BD7E4760088F6B9 /* Project object */;
+}

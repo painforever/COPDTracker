@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>IQKeyboardManager.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SocketRocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ZBarSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>55561546406C125B40D3F3C35043B7E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D6555381959BA30CBA50479A7F3E59D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>94F7F189F3302603E3064AD0A6552133</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9B8D5685B08F55DD2886E6ED3DDE3DF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D230C7F0D557193E086CB520552D62A8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
