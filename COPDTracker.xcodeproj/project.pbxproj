@@ -19,13 +19,15 @@
 		CF8BC4A41BD818A10088F6B9 /* doctor-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A01BD818A10088F6B9 /* doctor-32.png */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A11BD818A10088F6B9 /* home-32.png */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4A61BD818A10088F6B9 /* med-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A21BD818A10088F6B9 /* med-32.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4AF1BD81AA30088F6B9 /* HomeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B01BD81CE40088F6B9 /* charts.png */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4B61BD81CE40088F6B9 /* medical_history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4B91BD822970088F6B9 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */; settings = {ASSET_TAGS = (); }; };
+		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; settings = {ASSET_TAGS = (); }; };
+		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; settings = {ASSET_TAGS = (); }; };
+		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; settings = {ASSET_TAGS = (); }; };
 		ED413DB9284FB07795296915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB0BB2F15FA6A35CD18843 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +50,6 @@
 		CF8BC4A01BD818A10088F6B9 /* doctor-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "doctor-32.png"; path = "Images/tabbar_icon/doctor-32.png"; sourceTree = "<group>"; };
 		CF8BC4A11BD818A10088F6B9 /* home-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home-32.png"; path = "Images/tabbar_icon/home-32.png"; sourceTree = "<group>"; };
 		CF8BC4A21BD818A10088F6B9 /* med-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "med-32.png"; path = "Images/tabbar_icon/med-32.png"; sourceTree = "<group>"; };
-		CF8BC4AD1BD81AA30088F6B9 /* HomeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewCell.h; sourceTree = "<group>"; };
-		CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewCell.m; sourceTree = "<group>"; };
 		CF8BC4B01BD81CE40088F6B9 /* charts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = charts.png; path = Images/charts.png; sourceTree = "<group>"; };
 		CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lab_results.jpeg; path = Images/lab_results.jpeg; sourceTree = "<group>"; };
 		CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = medical_history.jpg; path = Images/medical_history.jpg; sourceTree = "<group>"; };
@@ -57,6 +57,9 @@
 		CF8BC4B81BD822970088F6B9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		CF8BC4B91BD822970088F6B9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homewall.jpg; path = Images/homewall.jpg; sourceTree = "<group>"; };
+		CFD00BC91BD9265B0033B650 /* condition_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = condition_report.png; path = Images/condition_report.png; sourceTree = "<group>"; };
+		CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exacerbation.jpg; path = Images/exacerbation.jpg; sourceTree = "<group>"; };
+		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
 		F1AB0BB2F15FA6A35CD18843 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +139,9 @@
 		CF8BC4961BD8124B0088F6B9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				CFD00BC91BD9265B0033B650 /* condition_report.png */,
+				CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */,
+				CFD00BCB1BD9265B0033B650 /* patient_education.jpg */,
 				CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */,
 				CF8BC4B01BD81CE40088F6B9 /* charts.png */,
 				CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */,
@@ -159,6 +165,8 @@
 		CF8BC49A1BD814CB0088F6B9 /* AfterLogin */ = {
 			isa = PBXGroup;
 			children = (
+				CF8BC4B81BD822970088F6B9 /* HomeViewController.h */,
+				CF8BC4B91BD822970088F6B9 /* HomeViewController.m */,
 				CF8BC4A71BD8199C0088F6B9 /* HomeViews */,
 			);
 			name = AfterLogin;
@@ -178,20 +186,8 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
-				CF8BC4B81BD822970088F6B9 /* HomeViewController.h */,
-				CF8BC4B91BD822970088F6B9 /* HomeViewController.m */,
-				CF8BC4AC1BD81A870088F6B9 /* CollectionViewCells */,
 			);
 			name = HomeViews;
-			sourceTree = "<group>";
-		};
-		CF8BC4AC1BD81A870088F6B9 /* CollectionViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				CF8BC4AD1BD81AA30088F6B9 /* HomeViewCell.h */,
-				CF8BC4AE1BD81AA30088F6B9 /* HomeViewCell.m */,
-			);
-			name = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +252,9 @@
 				CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */,
 				CF8BC42A1BD7E4760088F6B9 /* LaunchScreen.storyboard in Resources */,
 				CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */,
+				CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */,
+				CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */,
+				CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */,
 				CF8BC4981BD8125A0088F6B9 /* COPDWrapper.jpg in Resources */,
 				CF8BC4271BD7E4760088F6B9 /* Assets.xcassets in Resources */,
 				CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */,
@@ -312,7 +311,6 @@
 			files = (
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
-				CF8BC4AF1BD81AA30088F6B9 /* HomeViewCell.m in Sources */,
 				CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
 			);

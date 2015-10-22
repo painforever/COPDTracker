@@ -9,37 +9,76 @@
 #import "HomeViewController.h"
 
 @interface HomeViewController ()
-
+{
+    NSMutableArray *gestures;
+    NSMutableArray *imageViews;
+    NSMutableArray *selectors;
+}
 @end
 
 @implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [self setUpGestures];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+}
+
+-(void)setUpGestures{
+    self.tapLabResult = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(labIconTaped)];
+    
+    self.tapMedicalHistory = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(medicalHistoryIconTaped)];
+    
+    self.tapSideEffects = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sideEffectsIconTaped)];
+    
+    self.tapPatientEducation = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(patientEducationIconTaped)];
+    
+    self.tapConditionReport = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(conditionReportIconTaped)];
+    
+    self.tapExacerbation = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(exacerbationTaped)];
+    
+    self.tapCharts = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(chartsTaped)];
+    
+    gestures = [[NSMutableArray alloc] initWithArray: @[self.tapLabResult, self.tapMedicalHistory, self.tapSideEffects, self.tapPatientEducation, self.tapConditionReport, self.tapExacerbation, self.tapCharts]];
+    imageViews = [[NSMutableArray alloc] initWithArray:@[self.labResultsImageView, self.medicalHistoryImageView, self.sideEffectsImageView, self.patientEducationImageView, self.conditionReportIimageView, self.exacerbationImageView, self.chartsImageView]];
+    for (int i=0; i < gestures.count; i++) {
+        @autoreleasepool {
+            UIImageView *imageView = (UIImageView *)imageViews[i];
+            UITapGestureRecognizer *gesture = (UITapGestureRecognizer *)gestures[i];
+            [imageView setUserInteractionEnabled:YES];
+            [imageView addGestureRecognizer:gesture];
+        }
+    }
+}
+
+-(void)labIconTaped{
+    NSLog(@"lab tapped");
+}
+
+-(void)medicalHistoryIconTaped{
+    NSLog(@"medical");
+}
+
+-(void)sideEffectsIconTaped{
+    NSLog(@"side effect");
+}
+
+-(void)patientEducationIconTaped{
     
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
--(void)setUpControls{
-    self.lab_result = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 0, 0)];
+-(void)conditionReportIconTaped{
+    
 }
 
--(int)getXSpacing{
-    return (self.view.frame.size.width-240)/3;
+-(void)exacerbationTaped{
+    
 }
 
+-(void)chartsTaped{
+    
+}
 @end

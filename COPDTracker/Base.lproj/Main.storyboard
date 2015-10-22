@@ -255,15 +255,34 @@
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="buh-6E-r5K">
                                 <rect key="frame" x="20" y="197" width="71" height="71"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="patient_education.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zfE-vV-xyY">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.15169835400000001" green="0.71221715490000004" blue="0.83854166669999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l0m-z4-wHE">
                                 <rect key="frame" x="124" y="197" width="71" height="71"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="condition_report.png" translatesAutoresizingMaskIntoConstraints="NO" id="nWO-Vs-v1o">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.15169835400000001" green="0.71221715490000004" blue="0.83854166669999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nc1-rP-NOA">
                                 <rect key="frame" x="228" y="197" width="71" height="71"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="exacerbation.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Mxv-rN-iHx">
+                                        <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" red="0.15169835400000001" green="0.71221715490000004" blue="0.83854166669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="jIF-bP-LNM"/>
+                                    <constraint firstAttribute="width" constant="71" id="nX5-B7-A6A"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g22-Ai-479">
                                 <rect key="frame" x="125" y="299" width="71" height="71"/>
@@ -292,40 +311,90 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="charts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkW-Cg-UL0">
+                                <rect key="frame" x="125" y="378" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="patient education" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UEs-Nc-xNd">
+                                <rect key="frame" x="6" y="268" width="99" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="condition report" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-0H-muW">
+                                <rect key="frame" x="117" y="267" width="91" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="exacerbation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrH-ba-4HM">
+                                <rect key="frame" x="226" y="274" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="leading" secondItem="l0m-z4-wHE" secondAttribute="leading" id="0vG-mH-oBv"/>
                             <constraint firstItem="l0m-z4-wHE" firstAttribute="centerX" secondItem="oQO-qP-MNk" secondAttribute="centerX" id="3We-Oj-uyJ"/>
                             <constraint firstItem="IOk-Pf-QKE" firstAttribute="top" secondItem="YE6-N5-WXz" secondAttribute="bottom" id="4jE-7E-A4K"/>
+                            <constraint firstItem="UEs-Nc-xNd" firstAttribute="top" secondItem="buh-6E-r5K" secondAttribute="bottom" id="5Nb-US-NPk"/>
                             <constraint firstItem="Ss1-pu-aGD" firstAttribute="trailing" secondItem="iyb-8r-0Lh" secondAttribute="trailing" id="A05-7M-Lhz"/>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="leading" secondItem="eF9-pR-TXv" secondAttribute="leading" id="Ee8-70-bBo"/>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="leading" secondItem="0WG-rJ-6Yx" secondAttribute="trailing" constant="34" id="GZW-Ei-fQN"/>
                             <constraint firstItem="0WG-rJ-6Yx" firstAttribute="leading" secondItem="jaB-NZ-4xj" secondAttribute="leading" id="JMj-gU-Vlf"/>
+                            <constraint firstItem="zrH-ba-4HM" firstAttribute="top" secondItem="Nc1-rP-NOA" secondAttribute="bottom" constant="6" id="LDQ-P4-4tH"/>
                             <constraint firstItem="l0m-z4-wHE" firstAttribute="leading" secondItem="buh-6E-r5K" secondAttribute="trailing" constant="34" id="M4T-A8-J00"/>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="trailing" secondItem="l0m-z4-wHE" secondAttribute="trailing" id="MS9-lV-uI2"/>
+                            <constraint firstItem="l0m-z4-wHE" firstAttribute="leading" secondItem="MHQ-0H-muW" secondAttribute="leading" id="O7a-xw-zPe"/>
                             <constraint firstItem="IOk-Pf-QKE" firstAttribute="leading" secondItem="oQO-qP-MNk" secondAttribute="leading" id="OJu-TV-6M2"/>
+                            <constraint firstItem="buh-6E-r5K" firstAttribute="top" secondItem="0WG-rJ-6Yx" secondAttribute="bottom" constant="29" id="SWk-4Y-S6H"/>
                             <constraint firstItem="Nc1-rP-NOA" firstAttribute="leading" secondItem="l0m-z4-wHE" secondAttribute="trailing" constant="33" id="THR-09-mUl"/>
+                            <constraint firstItem="MHQ-0H-muW" firstAttribute="top" secondItem="l0m-z4-wHE" secondAttribute="bottom" constant="-1" id="Uvw-Mw-CaM"/>
+                            <constraint firstItem="0WG-rJ-6Yx" firstAttribute="trailing" secondItem="buh-6E-r5K" secondAttribute="trailing" id="W8b-DQ-xen"/>
+                            <constraint firstItem="fkW-Cg-UL0" firstAttribute="top" secondItem="g22-Ai-479" secondAttribute="bottom" constant="8" id="XKe-qZ-dQF"/>
                             <constraint firstItem="0WG-rJ-6Yx" firstAttribute="trailing" secondItem="jaB-NZ-4xj" secondAttribute="trailing" id="XTE-rb-uVZ"/>
                             <constraint firstItem="iyb-8r-0Lh" firstAttribute="top" secondItem="Ss1-pu-aGD" secondAttribute="bottom" id="YdR-zx-vAf"/>
                             <constraint firstAttribute="trailing" secondItem="IOk-Pf-QKE" secondAttribute="trailing" id="Yhn-ZO-nWm"/>
+                            <constraint firstItem="g22-Ai-479" firstAttribute="leading" secondItem="fkW-Cg-UL0" secondAttribute="leading" id="bYU-no-Om0"/>
+                            <constraint firstItem="buh-6E-r5K" firstAttribute="trailing" secondItem="UEs-Nc-xNd" secondAttribute="trailing" id="cNB-3u-9pb"/>
                             <constraint firstItem="jaB-NZ-4xj" firstAttribute="top" secondItem="0WG-rJ-6Yx" secondAttribute="bottom" id="cV5-fH-cbQ"/>
                             <constraint firstItem="Ss1-pu-aGD" firstAttribute="leading" secondItem="iyb-8r-0Lh" secondAttribute="leading" id="ds5-MD-2Xi"/>
+                            <constraint firstItem="l0m-z4-wHE" firstAttribute="trailing" secondItem="MHQ-0H-muW" secondAttribute="trailing" id="gBH-tt-Nbi"/>
                             <constraint firstItem="Ss1-pu-aGD" firstAttribute="leading" secondItem="Cfy-be-wst" secondAttribute="trailing" constant="33" id="h4x-AP-uuK"/>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="centerX" secondItem="oQO-qP-MNk" secondAttribute="centerX" id="lDt-re-9Wb"/>
                             <constraint firstItem="g22-Ai-479" firstAttribute="top" secondItem="l0m-z4-wHE" secondAttribute="bottom" constant="31" id="lmw-s8-X4q"/>
+                            <constraint firstItem="0WG-rJ-6Yx" firstAttribute="leading" secondItem="buh-6E-r5K" secondAttribute="leading" id="mUZ-ic-PFI"/>
                             <constraint firstItem="Cfy-be-wst" firstAttribute="trailing" secondItem="eF9-pR-TXv" secondAttribute="trailing" id="mZf-uL-H3l"/>
                             <constraint firstItem="eF9-pR-TXv" firstAttribute="top" secondItem="Cfy-be-wst" secondAttribute="bottom" id="pMY-jf-3TJ"/>
                             <constraint firstItem="l0m-z4-wHE" firstAttribute="top" secondItem="Cfy-be-wst" secondAttribute="bottom" constant="29" id="qHd-Kf-2cm"/>
                             <constraint firstItem="K4V-wo-qRT" firstAttribute="top" secondItem="IOk-Pf-QKE" secondAttribute="bottom" id="sb3-nG-WU9"/>
+                            <constraint firstItem="buh-6E-r5K" firstAttribute="leading" secondItem="UEs-Nc-xNd" secondAttribute="leading" id="szF-mO-EgV"/>
+                            <constraint firstItem="g22-Ai-479" firstAttribute="trailing" secondItem="fkW-Cg-UL0" secondAttribute="trailing" id="xO7-tW-aII"/>
+                            <constraint firstItem="Nc1-rP-NOA" firstAttribute="trailing" secondItem="zrH-ba-4HM" secondAttribute="trailing" id="xsQ-de-GuJ"/>
                             <constraint firstItem="g22-Ai-479" firstAttribute="centerX" secondItem="oQO-qP-MNk" secondAttribute="centerX" id="xun-Pj-rGR"/>
+                            <constraint firstItem="Nc1-rP-NOA" firstAttribute="leading" secondItem="zrH-ba-4HM" secondAttribute="leading" id="yjL-SZ-UuX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="6KQ-1o-CJK"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
+                        <outlet property="charts" destination="g22-Ai-479" id="CDD-Lh-lB7"/>
+                        <outlet property="chartsImageView" destination="0dn-7Y-7cQ" id="Pna-bL-vdl"/>
+                        <outlet property="conditionReportIimageView" destination="nWO-Vs-v1o" id="Ayl-Gq-Gq3"/>
+                        <outlet property="condition_report" destination="l0m-z4-wHE" id="hfG-aq-Svj"/>
+                        <outlet property="exacerbation" destination="Nc1-rP-NOA" id="nBC-av-Gqa"/>
+                        <outlet property="exacerbationImageView" destination="Mxv-rN-iHx" id="os6-vT-pc7"/>
+                        <outlet property="labResultsImageView" destination="JRt-0h-b6c" id="Mtz-5r-dkv"/>
                         <outlet property="lab_result" destination="0WG-rJ-6Yx" id="ong-Q3-BLO"/>
+                        <outlet property="medicalHistoryImageView" destination="pJ7-oW-WyR" id="Uoa-lv-jCH"/>
                         <outlet property="medical_history" destination="Cfy-be-wst" id="rh1-69-6ja"/>
+                        <outlet property="patientEducationImageView" destination="zfE-vV-xyY" id="ER2-ja-Lhz"/>
+                        <outlet property="patient_education" destination="buh-6E-r5K" id="Uy6-Ku-b9A"/>
+                        <outlet property="sideEffectsImageView" destination="jWd-La-nfW" id="cRz-24-IAc"/>
                         <outlet property="side_effects" destination="Ss1-pu-aGD" id="8ZI-bD-hY3"/>
                     </connections>
                 </viewController>
@@ -397,12 +466,15 @@
         <image name="COPDWrapper.jpg" width="750" height="1334"/>
         <image name="alerts-32.png" width="32" height="32"/>
         <image name="charts.png" width="434" height="290"/>
+        <image name="condition_report.png" width="256" height="256"/>
         <image name="doctor-32.png" width="32" height="32"/>
+        <image name="exacerbation.jpg" width="1024" height="1024"/>
         <image name="home-32.png" width="32" height="32"/>
         <image name="homewall.jpg" width="1080" height="1920"/>
         <image name="lab_results.jpeg" width="225" height="225"/>
         <image name="med-32.png" width="32" height="32"/>
         <image name="medical_history.jpg" width="147" height="151"/>
+        <image name="patient_education.jpg" width="1000" height="1000"/>
         <image name="side_effects.jpeg" width="275" height="183"/>
     </resources>
 </document>
