@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LabResultsTableViewController.h"
+#import "MedicalHistoryTableViewController.h"
+#import "SideEffectsTableViewController.h"
 
 @interface HomeViewController : UIViewController
 
@@ -36,5 +39,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView *conditionReportIimageView;
 @property (weak, nonatomic) IBOutlet UIImageView *exacerbationImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *chartsImageView;
+
+//view controllers
+@property (weak, nonatomic) LabResultsTableViewController *labViewController;
+@property (weak, nonatomic) MedicalHistoryTableViewController *medicalHistoryViewController;
+@property (weak, nonatomic) SideEffectsTableViewController *sideEffectsViewController;
 
 @end

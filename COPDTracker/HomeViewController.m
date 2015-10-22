@@ -55,15 +55,18 @@
 }
 
 -(void)labIconTaped{
-    NSLog(@"lab tapped");
+    self.labViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LabResultsTableViewController"];
+    [self.navigationController pushViewController:self.labViewController animated:YES];
 }
 
 -(void)medicalHistoryIconTaped{
-    NSLog(@"medical");
+    self.medicalHistoryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MedicalHistoryTableViewController"];
+    [self.navigationController pushViewController:self.medicalHistoryViewController animated:YES];
 }
 
 -(void)sideEffectsIconTaped{
-    NSLog(@"side effect");
+    self.sideEffectsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SideEffectsTableViewController"];
+    [self.navigationController pushViewController:self.sideEffectsViewController animated:YES];
 }
 
 -(void)patientEducationIconTaped{

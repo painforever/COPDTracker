@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4091BD9777D00ACA445 /* AFNetwork.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A40E1BD977F300ACA445 /* Manifest.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A4171BD9787500ACA445 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4141BD9787500ACA445 /* File.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4161BD9787500ACA445 /* JSONHandler.m */; settings = {ASSET_TAGS = (); }; };
+		CF55A41B1BD9791500ACA445 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A41A1BD9791500ACA445 /* Constants.m */; settings = {ASSET_TAGS = (); }; };
 		CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41B1BD7E4760088F6B9 /* main.m */; };
 		CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */; };
 		CF8BC4251BD7E4760088F6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4231BD7E4760088F6B9 /* Main.storyboard */; };
@@ -28,12 +36,31 @@
 		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; settings = {ASSET_TAGS = (); }; };
 		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; settings = {ASSET_TAGS = (); }; };
 		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; settings = {ASSET_TAGS = (); }; };
+		CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		ED413DB9284FB07795296915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB0BB2F15FA6A35CD18843 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3113FA36948B6E70242FC8E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A482122DA58CF5624CB12A4B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CF0147C41BD969C100E4EE07 /* NewLabResultsFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLabResultsFormTableViewController.h; sourceTree = "<group>"; };
+		CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLabResultsFormTableViewController.m; sourceTree = "<group>"; };
+		CF0147C71BD96F3700E4EE07 /* LabTypesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabTypesTableViewController.h; sourceTree = "<group>"; };
+		CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabTypesTableViewController.m; sourceTree = "<group>"; };
+		CF55A4031BD9775B00ACA445 /* UIViewController+SharedUIMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SharedUIMethods.h"; path = "Categories/UIViewController+SharedUIMethods.h"; sourceTree = "<group>"; };
+		CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SharedUIMethods.m"; path = "Categories/UIViewController+SharedUIMethods.m"; sourceTree = "<group>"; };
+		CF55A4081BD9777D00ACA445 /* AFNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetwork.h; path = Utils/AFNetwork.h; sourceTree = "<group>"; };
+		CF55A4091BD9777D00ACA445 /* AFNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetwork.m; path = Utils/AFNetwork.m; sourceTree = "<group>"; };
+		CF55A40D1BD977F300ACA445 /* Manifest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Manifest.h; path = Utils/Manifest.h; sourceTree = "<group>"; };
+		CF55A40E1BD977F300ACA445 /* Manifest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manifest.m; path = Utils/Manifest.m; sourceTree = "<group>"; };
+		CF55A4131BD9787400ACA445 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File.h; path = Utils/File.h; sourceTree = "<group>"; };
+		CF55A4141BD9787500ACA445 /* File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = File.m; path = Utils/File.m; sourceTree = "<group>"; };
+		CF55A4151BD9787500ACA445 /* JSONHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHandler.h; path = Utils/JSONHandler.h; sourceTree = "<group>"; };
+		CF55A4161BD9787500ACA445 /* JSONHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHandler.m; path = Utils/JSONHandler.m; sourceTree = "<group>"; };
+		CF55A4191BD9791500ACA445 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CF55A41A1BD9791500ACA445 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		CF8BC4171BD7E4760088F6B9 /* COPDTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COPDTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8BC41B1BD7E4760088F6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF8BC41D1BD7E4760088F6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,7 +69,7 @@
 		CF8BC4261BD7E4760088F6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF8BC4291BD7E4760088F6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF8BC42B1BD7E4760088F6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF8BC4311BD7E4C50088F6B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CF8BC4311BD7E4C50088F6B9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = COPDWrapper.jpg; path = Images/COPDWrapper.jpg; sourceTree = "<group>"; };
 		CF8BC49B1BD814E00088F6B9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -60,6 +87,12 @@
 		CFD00BC91BD9265B0033B650 /* condition_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = condition_report.png; path = Images/condition_report.png; sourceTree = "<group>"; };
 		CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exacerbation.jpg; path = Images/exacerbation.jpg; sourceTree = "<group>"; };
 		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
+		CFD00BCF1BD954F50033B650 /* LabResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabResultsTableViewController.h; sourceTree = "<group>"; };
+		CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabResultsTableViewController.m; sourceTree = "<group>"; };
+		CFD00BD21BD954FE0033B650 /* SideEffectsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideEffectsTableViewController.h; sourceTree = "<group>"; };
+		CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideEffectsTableViewController.m; sourceTree = "<group>"; };
+		CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalHistoryTableViewController.h; sourceTree = "<group>"; };
+		CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalHistoryTableViewController.m; sourceTree = "<group>"; };
 		F1AB0BB2F15FA6A35CD18843 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +125,74 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF0147C21BD9566800E4EE07 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CF0147C31BD9699A00E4EE07 /* LabResults */ = {
+			isa = PBXGroup;
+			children = (
+				CF0147C41BD969C100E4EE07 /* NewLabResultsFormTableViewController.h */,
+				CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */,
+				CF0147C71BD96F3700E4EE07 /* LabTypesTableViewController.h */,
+				CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */,
+			);
+			name = LabResults;
+			sourceTree = "<group>";
+		};
+		CF55A4021BD9774A00ACA445 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CF55A4031BD9775B00ACA445 /* UIViewController+SharedUIMethods.h */,
+				CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CF55A4061BD9776100ACA445 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CF55A40C1BD9778F00ACA445 /* Tools */,
+				CF55A40B1BD9778200ACA445 /* Constants */,
+				CF55A4071BD9777100ACA445 /* Web */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		CF55A4071BD9777100ACA445 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				CF55A4081BD9777D00ACA445 /* AFNetwork.h */,
+				CF55A4091BD9777D00ACA445 /* AFNetwork.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		CF55A40B1BD9778200ACA445 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CF55A4191BD9791500ACA445 /* Constants.h */,
+				CF55A41A1BD9791500ACA445 /* Constants.m */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		CF55A40C1BD9778F00ACA445 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CF55A4131BD9787400ACA445 /* File.h */,
+				CF55A4141BD9787500ACA445 /* File.m */,
+				CF55A4151BD9787500ACA445 /* JSONHandler.h */,
+				CF55A4161BD9787500ACA445 /* JSONHandler.m */,
+				CF55A40D1BD977F300ACA445 /* Manifest.h */,
+				CF55A40E1BD977F300ACA445 /* Manifest.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		CF8BC40E1BD7E4760088F6B9 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +216,9 @@
 		CF8BC4191BD7E4760088F6B9 /* COPDTracker */ = {
 			isa = PBXGroup;
 			children = (
+				CF55A4061BD9776100ACA445 /* Utils */,
+				CF55A4021BD9774A00ACA445 /* Categories */,
+				CF0147C21BD9566800E4EE07 /* Cells */,
 				CF8BC49A1BD814CB0088F6B9 /* AfterLogin */,
 				CF8BC4991BD814C50088F6B9 /* BeforeLogin */,
 				CF8BC41D1BD7E4760088F6B9 /* AppDelegate.h */,
@@ -186,6 +290,13 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
+				CF0147C31BD9699A00E4EE07 /* LabResults */,
+				CFD00BCF1BD954F50033B650 /* LabResultsTableViewController.h */,
+				CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */,
+				CFD00BD21BD954FE0033B650 /* SideEffectsTableViewController.h */,
+				CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */,
+				CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */,
+				CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */,
 			);
 			name = HomeViews;
 			sourceTree = "<group>";
@@ -309,10 +420,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
+				CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
+				CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */,
+				CF55A41B1BD9791500ACA445 /* Constants.m in Sources */,
+				CF55A4171BD9787500ACA445 /* File.m in Sources */,
 				CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */,
+				CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */,
+				CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */,
+				CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
+				CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */,
+				CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */,
+				CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
