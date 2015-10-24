@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddMedicationTableViewController.h"
 
 @interface MedicalHistoryTableViewController : UITableViewController
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *addMedicationButton;
+- (IBAction)addMedicationButtonAction:(id)sender;
 @end

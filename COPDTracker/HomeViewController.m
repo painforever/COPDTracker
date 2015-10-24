@@ -60,7 +60,7 @@
 }
 
 -(void)medicalHistoryIconTaped{
-    self.medicalHistoryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MedicalHistoryTableViewController"];
+    self.medicalHistoryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"MedHistorySelectionViewController"];
     [self.navigationController pushViewController:self.medicalHistoryViewController animated:YES];
 }
 

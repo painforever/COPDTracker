@@ -1,21 +1,17 @@
 //
-//  MedicalHistoryTableViewController.m
+//  AddMedicationTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/22/15.
+//  Created by Yu Song on 10/23/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "MedicalHistoryTableViewController.h"
+#import "AddMedicationTableViewController.h"
 
-@interface MedicalHistoryTableViewController ()
-{
-    AddMedicationTableViewController *addMedicationForm;
-}
-
+@interface AddMedicationTableViewController ()
 @end
 
-@implementation MedicalHistoryTableViewController
+@implementation AddMedicationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,10 +31,12 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+#warning Incomplete implementation, return the number of rows
     return 0;
 }
 
@@ -96,8 +94,4 @@
 }
 */
 
-- (IBAction)addMedicationButtonAction:(id)sender {
-    addMedicationForm = [self.storyboard instantiateViewControllerWithIdentifier:@"AddMedicationTableViewController"];
-    [self.navigationController pushViewController:addMedicationForm animated:YES];
-}
 @end

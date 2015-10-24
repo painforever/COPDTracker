@@ -1,21 +1,20 @@
 //
-//  MedicalHistoryTableViewController.m
+//  AdverseEventTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/22/15.
+//  Created by Yu Song on 10/23/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "MedicalHistoryTableViewController.h"
+#import "AdverseEventTableViewController.h"
 
-@interface MedicalHistoryTableViewController ()
+@interface AdverseEventTableViewController ()
 {
-    AddMedicationTableViewController *addMedicationForm;
+    NewAdverseEventTableViewController *addAdverseEventForm;
 }
-
 @end
 
-@implementation MedicalHistoryTableViewController
+@implementation AdverseEventTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,10 +34,12 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+#warning Incomplete implementation, return the number of rows
     return 0;
 }
 
@@ -96,8 +97,8 @@
 }
 */
 
-- (IBAction)addMedicationButtonAction:(id)sender {
-    addMedicationForm = [self.storyboard instantiateViewControllerWithIdentifier:@"AddMedicationTableViewController"];
-    [self.navigationController pushViewController:addMedicationForm animated:YES];
+- (IBAction)addAdverseEventButtonAction:(id)sender {
+    addAdverseEventForm = [self.storyboard instantiateViewControllerWithIdentifier:@"NewAdverseEventTableViewController"];
+    [self.navigationController pushViewController: addAdverseEventForm animated:YES];
 }
 @end

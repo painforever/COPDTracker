@@ -7,38 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4091BD9777D00ACA445 /* AFNetwork.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A40E1BD977F300ACA445 /* Manifest.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A4171BD9787500ACA445 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4141BD9787500ACA445 /* File.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4161BD9787500ACA445 /* JSONHandler.m */; settings = {ASSET_TAGS = (); }; };
-		CF55A41B1BD9791500ACA445 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A41A1BD9791500ACA445 /* Constants.m */; settings = {ASSET_TAGS = (); }; };
+		CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */; };
+		CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */; };
+		CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */; };
+		CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4091BD9777D00ACA445 /* AFNetwork.m */; };
+		CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A40E1BD977F300ACA445 /* Manifest.m */; };
+		CF55A4171BD9787500ACA445 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4141BD9787500ACA445 /* File.m */; };
+		CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4161BD9787500ACA445 /* JSONHandler.m */; };
+		CF55A41B1BD9791500ACA445 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A41A1BD9791500ACA445 /* Constants.m */; };
 		CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41B1BD7E4760088F6B9 /* main.m */; };
 		CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */; };
 		CF8BC4251BD7E4760088F6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4231BD7E4760088F6B9 /* Main.storyboard */; };
 		CF8BC4271BD7E4760088F6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4261BD7E4760088F6B9 /* Assets.xcassets */; };
 		CF8BC42A1BD7E4760088F6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4281BD7E4760088F6B9 /* LaunchScreen.storyboard */; };
-		CF8BC4321BD7E4C50088F6B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4311BD7E4C50088F6B9 /* Podfile */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4981BD8125A0088F6B9 /* COPDWrapper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */; settings = {ASSET_TAGS = (); }; };
-		CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4A31BD818A10088F6B9 /* alerts-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC49F1BD818A10088F6B9 /* alerts-32.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4A41BD818A10088F6B9 /* doctor-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A01BD818A10088F6B9 /* doctor-32.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A11BD818A10088F6B9 /* home-32.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4A61BD818A10088F6B9 /* med-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A21BD818A10088F6B9 /* med-32.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B01BD81CE40088F6B9 /* charts.png */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4B61BD81CE40088F6B9 /* medical_history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4B91BD822970088F6B9 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */; settings = {ASSET_TAGS = (); }; };
-		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; settings = {ASSET_TAGS = (); }; };
-		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; settings = {ASSET_TAGS = (); }; };
-		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; settings = {ASSET_TAGS = (); }; };
-		CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */; settings = {ASSET_TAGS = (); }; };
-		CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		CF8BC4321BD7E4C50088F6B9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4311BD7E4C50088F6B9 /* Podfile */; };
+		CF8BC4981BD8125A0088F6B9 /* COPDWrapper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4971BD8125A0088F6B9 /* COPDWrapper.jpg */; };
+		CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC49C1BD814E00088F6B9 /* LoginViewController.m */; };
+		CF8BC4A31BD818A10088F6B9 /* alerts-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC49F1BD818A10088F6B9 /* alerts-32.png */; };
+		CF8BC4A41BD818A10088F6B9 /* doctor-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A01BD818A10088F6B9 /* doctor-32.png */; };
+		CF8BC4A51BD818A10088F6B9 /* home-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A11BD818A10088F6B9 /* home-32.png */; };
+		CF8BC4A61BD818A10088F6B9 /* med-32.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4A21BD818A10088F6B9 /* med-32.png */; };
+		CF8BC4B41BD81CE40088F6B9 /* charts.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B01BD81CE40088F6B9 /* charts.png */; };
+		CF8BC4B51BD81CE40088F6B9 /* lab_results.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B11BD81CE40088F6B9 /* lab_results.jpeg */; };
+		CF8BC4B61BD81CE40088F6B9 /* medical_history.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B21BD81CE40088F6B9 /* medical_history.jpg */; };
+		CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */; };
+		CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4B91BD822970088F6B9 /* HomeViewController.m */; };
+		CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */; };
+		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; };
+		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; };
+		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; };
+		CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */; };
+		CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */; };
+		CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */; };
+		CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */; };
+		CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DA9E1BDAFA84005D507C /* AdverseEventTableViewController.m */; };
+		CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */; };
+		CFEEFE141BDB0AEA00771292 /* AddMedicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEEFE131BDB0AEA00771292 /* AddMedicationTableViewController.m */; };
 		ED413DB9284FB07795296915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB0BB2F15FA6A35CD18843 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +97,14 @@
 		CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideEffectsTableViewController.m; sourceTree = "<group>"; };
 		CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalHistoryTableViewController.h; sourceTree = "<group>"; };
 		CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalHistoryTableViewController.m; sourceTree = "<group>"; };
+		CFE9DA9A1BDA8137005D507C /* MedHistorySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedHistorySelectionViewController.h; sourceTree = "<group>"; };
+		CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedHistorySelectionViewController.m; sourceTree = "<group>"; };
+		CFE9DA9D1BDAFA84005D507C /* AdverseEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverseEventTableViewController.h; sourceTree = "<group>"; };
+		CFE9DA9E1BDAFA84005D507C /* AdverseEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdverseEventTableViewController.m; sourceTree = "<group>"; };
+		CFE9DAA41BDAFE6E005D507C /* NewAdverseEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAdverseEventTableViewController.h; sourceTree = "<group>"; };
+		CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAdverseEventTableViewController.m; sourceTree = "<group>"; };
+		CFEEFE121BDB0AEA00771292 /* AddMedicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedicationTableViewController.h; sourceTree = "<group>"; };
+		CFEEFE131BDB0AEA00771292 /* AddMedicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedicationTableViewController.m; sourceTree = "<group>"; };
 		F1AB0BB2F15FA6A35CD18843 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -290,15 +302,31 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
+				CFE9DA991BDA80F9005D507C /* MedicalHistory */,
 				CF0147C31BD9699A00E4EE07 /* LabResults */,
 				CFD00BCF1BD954F50033B650 /* LabResultsTableViewController.h */,
 				CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */,
 				CFD00BD21BD954FE0033B650 /* SideEffectsTableViewController.h */,
 				CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */,
-				CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */,
-				CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */,
+				CFE9DA9A1BDA8137005D507C /* MedHistorySelectionViewController.h */,
+				CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */,
 			);
 			name = HomeViews;
+			sourceTree = "<group>";
+		};
+		CFE9DA991BDA80F9005D507C /* MedicalHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */,
+				CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */,
+				CFE9DA9D1BDAFA84005D507C /* AdverseEventTableViewController.h */,
+				CFE9DA9E1BDAFA84005D507C /* AdverseEventTableViewController.m */,
+				CFE9DAA41BDAFE6E005D507C /* NewAdverseEventTableViewController.h */,
+				CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */,
+				CFEEFE121BDB0AEA00771292 /* AddMedicationTableViewController.h */,
+				CFEEFE131BDB0AEA00771292 /* AddMedicationTableViewController.m */,
+			);
+			name = MedicalHistory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -423,17 +451,21 @@
 				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
 				CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
+				CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
 				CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */,
 				CF55A41B1BD9791500ACA445 /* Constants.m in Sources */,
 				CF55A4171BD9787500ACA445 /* File.m in Sources */,
 				CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */,
 				CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */,
+				CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */,
 				CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */,
+				CFEEFE141BDB0AEA00771292 /* AddMedicationTableViewController.m in Sources */,
 				CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
 				CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */,
 				CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */,
+				CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */,
 				CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
