@@ -15,6 +15,8 @@
 		CF55A4171BD9787500ACA445 /* File.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4141BD9787500ACA445 /* File.m */; };
 		CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4161BD9787500ACA445 /* JSONHandler.m */; };
 		CF55A41B1BD9791500ACA445 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A41A1BD9791500ACA445 /* Constants.m */; };
+		CF82A8571BDEB90C00CBCB7B /* DosageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF82A8561BDEB90C00CBCB7B /* DosageTableViewController.m */; };
+		CF82A85A1BDEB91500CBCB7B /* ScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF82A8591BDEB91500CBCB7B /* ScheduleTableViewController.m */; };
 		CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41B1BD7E4760088F6B9 /* main.m */; };
 		CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC41E1BD7E4760088F6B9 /* AppDelegate.m */; };
 		CF8BC4251BD7E4760088F6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4231BD7E4760088F6B9 /* Main.storyboard */; };
@@ -65,6 +67,10 @@
 		CF55A4161BD9787500ACA445 /* JSONHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHandler.m; path = Utils/JSONHandler.m; sourceTree = "<group>"; };
 		CF55A4191BD9791500ACA445 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		CF55A41A1BD9791500ACA445 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		CF82A8551BDEB90C00CBCB7B /* DosageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DosageTableViewController.h; sourceTree = "<group>"; };
+		CF82A8561BDEB90C00CBCB7B /* DosageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DosageTableViewController.m; sourceTree = "<group>"; };
+		CF82A8581BDEB91500CBCB7B /* ScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleTableViewController.h; sourceTree = "<group>"; };
+		CF82A8591BDEB91500CBCB7B /* ScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleTableViewController.m; sourceTree = "<group>"; };
 		CF8BC4171BD7E4760088F6B9 /* COPDTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COPDTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8BC41B1BD7E4760088F6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF8BC41D1BD7E4760088F6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -205,6 +211,17 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
+		CF82A8541BDEB8F600CBCB7B /* AddMedication */ = {
+			isa = PBXGroup;
+			children = (
+				CF82A8551BDEB90C00CBCB7B /* DosageTableViewController.h */,
+				CF82A8561BDEB90C00CBCB7B /* DosageTableViewController.m */,
+				CF82A8581BDEB91500CBCB7B /* ScheduleTableViewController.h */,
+				CF82A8591BDEB91500CBCB7B /* ScheduleTableViewController.m */,
+			);
+			name = AddMedication;
+			sourceTree = "<group>";
+		};
 		CF8BC40E1BD7E4760088F6B9 = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +334,7 @@
 		CFE9DA991BDA80F9005D507C /* MedicalHistory */ = {
 			isa = PBXGroup;
 			children = (
+				CF82A8541BDEB8F600CBCB7B /* AddMedication */,
 				CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */,
 				CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */,
 				CFE9DA9D1BDAFA84005D507C /* AdverseEventTableViewController.h */,
@@ -450,6 +468,7 @@
 			files = (
 				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
 				CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */,
+				CF82A85A1BDEB91500CBCB7B /* ScheduleTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
@@ -460,6 +479,7 @@
 				CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */,
 				CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */,
 				CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */,
+				CF82A8571BDEB90C00CBCB7B /* DosageTableViewController.m in Sources */,
 				CFEEFE141BDB0AEA00771292 /* AddMedicationTableViewController.m in Sources */,
 				CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,

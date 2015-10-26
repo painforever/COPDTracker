@@ -9,6 +9,10 @@
 #import "AddMedicationTableViewController.h"
 
 @interface AddMedicationTableViewController ()
+{
+    UITableViewController *dosageTableView;
+    UITableViewController *scheduleTableView;
+}
 @end
 
 @implementation AddMedicationTableViewController
@@ -34,4 +38,14 @@
     return 6;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (indexPath.row == 3) {
+        dosageTableView = [self.storyboard instantiateViewControllerWithIdentifier:@"DosageTableViewController"];
+        [self.navigationController pushViewController:dosageTableView animated:YES];
+    }
+    else if (indexPath.row == 5){
+        scheduleTableView = [self.storyboard instantiateViewControllerWithIdentifier:@"ScheduleTableViewController"];
+        [self.navigationController pushViewController:scheduleTableView animated:YES];
+    }
+}
 @end

@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DosageTableViewController.h"
+#import "ScheduleTableViewController.h"
 
 @interface AddMedicationTableViewController : UITableViewController
 @property (strong, nonatomic) IBOutlet UITextField *med_name_textfield;
