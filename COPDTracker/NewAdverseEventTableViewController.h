@@ -11,7 +11,7 @@
 @interface NewAdverseEventTableViewController : UITableViewController
 @property (strong, nonatomic) IBOutlet UITextField *eventName;
 @property (strong, nonatomic) IBOutlet UITextField *relatedDrug;
-@property (strong, nonatomic) IBOutlet UITextView *notes;
+@property (strong, nonatomic) IBOutlet UITextField *notes;
 @property (strong, nonatomic) IBOutlet UITextField *date;
 
 @property (strong, nonatomic) IBOutlet UIButton *submitButton;

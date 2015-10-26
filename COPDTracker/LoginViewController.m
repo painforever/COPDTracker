@@ -35,6 +35,17 @@
 */
 
 - (IBAction)login_action:(id)sender {
+    //userDefault list:
+    //1, patient_id
+    //2, user_id
+    //3, all drugs
+    //4, all administration methods
+    userDefaults = [NSUserDefaults standardUserDefaults];
+    [userDefaults setValue:@"999992" forKey:@"user_id"];
+    [userDefaults setValue:@"1" forKey:@"patient_id"];
+    [userDefaults setObject:@[@"Advair", @"albuterol", @"Asmanex",@"Atrovent",@"Breo Ellipta",@"budesonide",@"Chantix",@"Combivent",@"Daliresp",@"Flovent",@"fluticasone",@"Foradil", @"levalbuterol", @"Prednisone", @"ProAir", @"Proventil HFA", @"Pulmicort", @"QVAR", @"serevent", @"Spiriva", @"Symbicort", @"Theophylline", @"xopenex", @"Zyban"] forKey:@"copd_drugs"];
+    [userDefaults setObject:@[@"ORAL",@"INJECTION",@"INTRAVENOUS",@"PARENTERAL",@"SUBCUTANEOUS",@"INHALATION", @"TOPICAL", @"TAPE",@"INTRAMUSCULAR INJECTION", @"INTRA-ARTICULAR INJECTION", @"INTRALESIONAL INJECTION", @"RECTAL"] forKey:@"administration_methods"];
+    //redirect
     UITabBarController *tabBarController = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBarController"];
     AppDelegate *ddd = [UIApplication sharedApplication].delegate;
     [ddd.window setRootViewController: tabBarController];
