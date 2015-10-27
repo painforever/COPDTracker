@@ -179,6 +179,26 @@
     return nil;
 }
 
+-(void)buildCustomPickerView:(UIPickerView *)pickerView withArray:(NSArray *)arr withUITextField:(UITextField *)textField withDoneButton:(UIBarButtonItem *)doneButton{
+    pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 43, 320, 480)];
+    pickerView.delegate = self;
+    pickerView.dataSource = self;
+    [pickerView  setShowsSelectionIndicator:YES];
+    
+    textField.inputView = pickerView;
+    // Create done button in UIPickerView
+    UIToolbar *mypickerToolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, 320, 56)];
+    mypickerToolbar.barStyle = UIBarStyleBlackOpaque;
+    [mypickerToolbar sizeToFit];
+    NSMutableArray *barItems = [[NSMutableArray alloc] init];
+    UIBarButtonItem *flexSpace = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
+    [barItems addObject:flexSpace];
+//    UIBarButtonItem *doneBtn = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:selfaction:@selector(pickerDoneClicked)];
+    [barItems addObject:doneButton];
+    [mypickerToolbar setItems:barItems animated:YES];
+    textField.inputAccessoryView = mypickerToolbar;
+}
+
 -(void)getSelf{
     NSLog(@"self: %@", [[self class] description]);
 }

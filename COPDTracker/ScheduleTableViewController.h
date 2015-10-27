@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AddMedicationTableViewController.h"
+#import "Manifest.h"
 
-@interface ScheduleTableViewController : UITableViewController
+@class AddMedicationTableViewController;
 
+@interface ScheduleTableViewController : UITableViewController<UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *schedule;
+@property (weak, nonatomic) IBOutlet UITextField *repeat;
+@property (weak, nonatomic) UIPickerView *schedulePicker;
+
+@property (strong, nonatomic) NSDictionary *date_enum;
+
+//parent
+@property (weak, nonatomic) AddMedicationTableViewController *parent;
+
+- (IBAction)submitAction:(id)sender;
 @end

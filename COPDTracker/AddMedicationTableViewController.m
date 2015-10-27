@@ -9,14 +9,11 @@
 #import "AddMedicationTableViewController.h"
 
 @interface AddMedicationTableViewController ()
-{
-    UITableViewController *dosageTableView;
-    UITableViewController *scheduleTableView;
-}
 @end
 
 @implementation AddMedicationTableViewController
-
+@synthesize dosageTableView;
+@synthesize scheduleTableView;
 - (void)viewDidLoad {
     [super viewDidLoad];
 }
@@ -41,10 +38,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 3) {
         dosageTableView = [self.storyboard instantiateViewControllerWithIdentifier:@"DosageTableViewController"];
+        dosageTableView.parent = self;
         [self.navigationController pushViewController:dosageTableView animated:YES];
     }
     else if (indexPath.row == 5){
         scheduleTableView = [self.storyboard instantiateViewControllerWithIdentifier:@"ScheduleTableViewController"];
+        scheduleTableView.parent = self;
         [self.navigationController pushViewController:scheduleTableView animated:YES];
     }
 }

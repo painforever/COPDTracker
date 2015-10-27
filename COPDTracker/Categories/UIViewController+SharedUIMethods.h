@@ -52,5 +52,7 @@
 
 -(UIView *)getUIViewByTagFromArray: (int)tag withArray: (NSMutableArray *)array;
 
+-(void)buildCustomPickerView: (UIPickerView *)pickerView withArray: (NSArray *)arr withUITextField: (UITextField *)textField withDoneButton: (UIBarButtonItem *)doneButton;
+
 -(void)getSelf;
 @end
