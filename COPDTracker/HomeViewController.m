@@ -32,7 +32,7 @@
     
     self.tapMedicalHistory = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(medicalHistoryIconTaped)];
     
-    self.tapSideEffects = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sideEffectsIconTaped)];
+    //self.tapSideEffects = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(sideEffectsIconTaped)];
     
     self.tapPatientEducation = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(patientEducationIconTaped)];
     
@@ -42,8 +42,8 @@
     
     self.tapCharts = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(chartsTaped)];
     
-    gestures = [[NSMutableArray alloc] initWithArray: @[self.tapLabResult, self.tapMedicalHistory, self.tapSideEffects, self.tapPatientEducation, self.tapConditionReport, self.tapExacerbation, self.tapCharts]];
-    imageViews = [[NSMutableArray alloc] initWithArray:@[self.labResultsImageView, self.medicalHistoryImageView, self.sideEffectsImageView, self.patientEducationImageView, self.conditionReportIimageView, self.exacerbationImageView, self.chartsImageView]];
+    gestures = [[NSMutableArray alloc] initWithArray: @[self.tapLabResult, self.tapMedicalHistory, self.tapCharts, self.tapPatientEducation, self.tapConditionReport, self.tapExacerbation]];
+    imageViews = [[NSMutableArray alloc] initWithArray:@[self.labResultsImageView, self.medicalHistoryImageView, self.chartsImageView, self.patientEducationImageView, self.conditionReportIimageView, self.exacerbationImageView]];
     for (int i=0; i < gestures.count; i++) {
         @autoreleasepool {
             UIImageView *imageView = (UIImageView *)imageViews[i];
@@ -64,17 +64,18 @@
     [self.navigationController pushViewController:self.medicalHistoryViewController animated:YES];
 }
 
--(void)sideEffectsIconTaped{
-    self.sideEffectsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SideEffectsTableViewController"];
-    [self.navigationController pushViewController:self.sideEffectsViewController animated:YES];
-}
+//-(void)sideEffectsIconTaped{
+//    self.sideEffectsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"SideEffectsTableViewController"];
+//    [self.navigationController pushViewController:self.sideEffectsViewController animated:YES];
+//}
 
 -(void)patientEducationIconTaped{
     
 }
 
 -(void)conditionReportIconTaped{
-    
+    self.conditionReportViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ConditionReportTableViewController"];
+    [self.navigationController pushViewController:self.conditionReportViewController animated:YES];
 }
 
 -(void)exacerbationTaped{

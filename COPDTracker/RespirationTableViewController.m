@@ -1,18 +1,18 @@
 //
-//  SideEffectsTableViewController.m
+//  RespirationTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/22/15.
+//  Created by Yu Song on 10/28/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "SideEffectsTableViewController.h"
+#import "RespirationTableViewController.h"
 
-@interface SideEffectsTableViewController ()
+@interface RespirationTableViewController ()
 
 @end
 
-@implementation SideEffectsTableViewController
+@implementation RespirationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,12 +33,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return 3;
 }
 
 /*

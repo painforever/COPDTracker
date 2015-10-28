@@ -39,8 +39,12 @@
 		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; };
 		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; };
 		CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */; };
-		CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */; };
 		CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */; };
+		CFDB5B231BE11CD2006D8857 /* ConditionReportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDB5B221BE11CD2006D8857 /* ConditionReportTableViewController.m */; };
+		CFDB5B261BE11E42006D8857 /* ConditionReportCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDB5B251BE11E42006D8857 /* ConditionReportCell.m */; };
+		CFDB5B2A1BE11F21006D8857 /* NewConditionReportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDB5B291BE11F21006D8857 /* NewConditionReportTableViewController.m */; };
+		CFDB5B2D1BE12385006D8857 /* RespirationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDB5B2C1BE12385006D8857 /* RespirationTableViewController.m */; };
+		CFDB5B301BE12394006D8857 /* SymptomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDB5B2F1BE12394006D8857 /* SymptomTableViewController.m */; };
 		CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */; };
 		CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DA9E1BDAFA84005D507C /* AdverseEventTableViewController.m */; };
 		CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */; };
@@ -99,10 +103,18 @@
 		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
 		CFD00BCF1BD954F50033B650 /* LabResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabResultsTableViewController.h; sourceTree = "<group>"; };
 		CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabResultsTableViewController.m; sourceTree = "<group>"; };
-		CFD00BD21BD954FE0033B650 /* SideEffectsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideEffectsTableViewController.h; sourceTree = "<group>"; };
-		CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideEffectsTableViewController.m; sourceTree = "<group>"; };
 		CFD00BD51BD9550E0033B650 /* MedicalHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalHistoryTableViewController.h; sourceTree = "<group>"; };
 		CFD00BD61BD9550E0033B650 /* MedicalHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalHistoryTableViewController.m; sourceTree = "<group>"; };
+		CFDB5B211BE11CD2006D8857 /* ConditionReportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionReportTableViewController.h; sourceTree = "<group>"; };
+		CFDB5B221BE11CD2006D8857 /* ConditionReportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionReportTableViewController.m; sourceTree = "<group>"; };
+		CFDB5B241BE11E42006D8857 /* ConditionReportCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionReportCell.h; sourceTree = "<group>"; };
+		CFDB5B251BE11E42006D8857 /* ConditionReportCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionReportCell.m; sourceTree = "<group>"; };
+		CFDB5B281BE11F21006D8857 /* NewConditionReportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewConditionReportTableViewController.h; sourceTree = "<group>"; };
+		CFDB5B291BE11F21006D8857 /* NewConditionReportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewConditionReportTableViewController.m; sourceTree = "<group>"; };
+		CFDB5B2B1BE12385006D8857 /* RespirationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RespirationTableViewController.h; sourceTree = "<group>"; };
+		CFDB5B2C1BE12385006D8857 /* RespirationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RespirationTableViewController.m; sourceTree = "<group>"; };
+		CFDB5B2E1BE12394006D8857 /* SymptomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymptomTableViewController.h; sourceTree = "<group>"; };
+		CFDB5B2F1BE12394006D8857 /* SymptomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymptomTableViewController.m; sourceTree = "<group>"; };
 		CFE9DA9A1BDA8137005D507C /* MedHistorySelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedHistorySelectionViewController.h; sourceTree = "<group>"; };
 		CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedHistorySelectionViewController.m; sourceTree = "<group>"; };
 		CFE9DA9D1BDAFA84005D507C /* AdverseEventTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdverseEventTableViewController.h; sourceTree = "<group>"; };
@@ -146,6 +158,8 @@
 		CF0147C21BD9566800E4EE07 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				CFDB5B241BE11E42006D8857 /* ConditionReportCell.h */,
+				CFDB5B251BE11E42006D8857 /* ConditionReportCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -319,16 +333,30 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
+				CFDB5B271BE11EAE006D8857 /* ConditionReports */,
 				CFE9DA991BDA80F9005D507C /* MedicalHistory */,
 				CF0147C31BD9699A00E4EE07 /* LabResults */,
 				CFD00BCF1BD954F50033B650 /* LabResultsTableViewController.h */,
 				CFD00BD01BD954F50033B650 /* LabResultsTableViewController.m */,
-				CFD00BD21BD954FE0033B650 /* SideEffectsTableViewController.h */,
-				CFD00BD31BD954FE0033B650 /* SideEffectsTableViewController.m */,
 				CFE9DA9A1BDA8137005D507C /* MedHistorySelectionViewController.h */,
 				CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */,
+				CFDB5B211BE11CD2006D8857 /* ConditionReportTableViewController.h */,
+				CFDB5B221BE11CD2006D8857 /* ConditionReportTableViewController.m */,
 			);
 			name = HomeViews;
+			sourceTree = "<group>";
+		};
+		CFDB5B271BE11EAE006D8857 /* ConditionReports */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB5B281BE11F21006D8857 /* NewConditionReportTableViewController.h */,
+				CFDB5B291BE11F21006D8857 /* NewConditionReportTableViewController.m */,
+				CFDB5B2B1BE12385006D8857 /* RespirationTableViewController.h */,
+				CFDB5B2C1BE12385006D8857 /* RespirationTableViewController.m */,
+				CFDB5B2E1BE12394006D8857 /* SymptomTableViewController.h */,
+				CFDB5B2F1BE12394006D8857 /* SymptomTableViewController.m */,
+			);
+			name = ConditionReports;
 			sourceTree = "<group>";
 		};
 		CFE9DA991BDA80F9005D507C /* MedicalHistory */ = {
@@ -467,9 +495,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
-				CFD00BD41BD954FE0033B650 /* SideEffectsTableViewController.m in Sources */,
 				CF82A85A1BDEB91500CBCB7B /* ScheduleTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
+				CFDB5B261BE11E42006D8857 /* ConditionReportCell.m in Sources */,
+				CFDB5B301BE12394006D8857 /* SymptomTableViewController.m in Sources */,
+				CFDB5B231BE11CD2006D8857 /* ConditionReportTableViewController.m in Sources */,
 				CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
 				CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */,
@@ -477,6 +507,7 @@
 				CF55A4171BD9787500ACA445 /* File.m in Sources */,
 				CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */,
 				CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */,
+				CFDB5B2D1BE12385006D8857 /* RespirationTableViewController.m in Sources */,
 				CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */,
 				CFD00BD11BD954F50033B650 /* LabResultsTableViewController.m in Sources */,
 				CF82A8571BDEB90C00CBCB7B /* DosageTableViewController.m in Sources */,
@@ -486,6 +517,7 @@
 				CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */,
 				CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */,
 				CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */,
+				CFDB5B2A1BE11F21006D8857 /* NewConditionReportTableViewController.m in Sources */,
 				CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

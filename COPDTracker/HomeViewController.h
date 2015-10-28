@@ -9,14 +9,15 @@
 #import <UIKit/UIKit.h>
 #import "LabResultsTableViewController.h"
 #import "MedicalHistoryTableViewController.h"
-#import "SideEffectsTableViewController.h"
+#import "ConditionReportTableViewController.h"
+//#import "SideEffectsTableViewController.h"
 
 @interface HomeViewController : UIViewController
 
 //square views
 @property (weak, nonatomic) IBOutlet UIView *lab_result;
 @property (weak, nonatomic) IBOutlet UIView *medical_history;
-@property (weak, nonatomic) IBOutlet UIView *side_effects;
+//@property (weak, nonatomic) IBOutlet UIView *side_effects;
 @property (weak, nonatomic) IBOutlet UIView *patient_education;
 @property (weak, nonatomic) IBOutlet UIView *condition_report;
 @property (weak, nonatomic) IBOutlet UIView *exacerbation;
@@ -25,7 +26,7 @@
 //gestures
 @property (strong, nonatomic) UITapGestureRecognizer *tapLabResult;
 @property (strong, nonatomic) UITapGestureRecognizer *tapMedicalHistory;
-@property (strong, nonatomic) UITapGestureRecognizer *tapSideEffects;
+//@property (strong, nonatomic) UITapGestureRecognizer *tapSideEffects;
 @property (strong, nonatomic) UITapGestureRecognizer *tapPatientEducation;
 @property (strong, nonatomic) UITapGestureRecognizer *tapConditionReport;
 @property (strong, nonatomic) UITapGestureRecognizer *tapExacerbation;
@@ -34,7 +35,7 @@
 //imageViews
 @property (weak, nonatomic) IBOutlet UIImageView *labResultsImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *medicalHistoryImageView;
-@property (weak, nonatomic) IBOutlet UIImageView *sideEffectsImageView;
+//@property (weak, nonatomic) IBOutlet UIImageView *sideEffectsImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *patientEducationImageView;
 @property (weak, nonatomic) IBOutlet UIImageView *conditionReportIimageView;
 @property (weak, nonatomic) IBOutlet UIImageView *exacerbationImageView;
@@ -43,6 +44,8 @@
 //view controllers
 @property (weak, nonatomic) LabResultsTableViewController *labViewController;
 @property (weak, nonatomic) MedicalHistoryTableViewController *medicalHistoryViewController;
-@property (weak, nonatomic) SideEffectsTableViewController *sideEffectsViewController;
+@property (weak, nonatomic) ConditionReportTableViewController *conditionReportViewController;
+//@property (weak, nonatomic) SideEffectsTableViewController *sideEffectsViewController;
+
 
 @end
