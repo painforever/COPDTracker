@@ -79,10 +79,12 @@
 }
 
 -(void)exacerbationTaped{
-    
+    self.exacerbationViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ExacerbationTableViewController"];
+    [self.navigationController pushViewController:self.exacerbationViewController animated:YES];
 }
 
 -(void)chartsTaped{
-    
+    self.chartsViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"ChartsTableViewController"];
+    [self.navigationController pushViewController:self.chartsViewController animated:YES];
 }
 @end

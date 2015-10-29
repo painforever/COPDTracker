@@ -35,6 +35,9 @@
 		CF8BC4B71BD81CE40088F6B9 /* side_effects.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4B31BD81CE40088F6B9 /* side_effects.jpeg */; };
 		CF8BC4BA1BD822970088F6B9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8BC4B91BD822970088F6B9 /* HomeViewController.m */; };
 		CF8BC4BC1BD826C00088F6B9 /* homewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */; };
+		CF9F00831BE2624800880D5E /* ChartsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00821BE2624800880D5E /* ChartsTableViewController.m */; };
+		CF9F00861BE268FF00880D5E /* ExacerbationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00851BE268FF00880D5E /* ExacerbationTableViewController.m */; };
+		CF9F008A1BE26A9900880D5E /* NewExacerbationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */; };
 		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; };
 		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; };
 		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; };
@@ -98,6 +101,12 @@
 		CF8BC4B81BD822970088F6B9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		CF8BC4B91BD822970088F6B9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CF8BC4BB1BD826C00088F6B9 /* homewall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homewall.jpg; path = Images/homewall.jpg; sourceTree = "<group>"; };
+		CF9F00811BE2624800880D5E /* ChartsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartsTableViewController.h; sourceTree = "<group>"; };
+		CF9F00821BE2624800880D5E /* ChartsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartsTableViewController.m; sourceTree = "<group>"; };
+		CF9F00841BE268FF00880D5E /* ExacerbationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExacerbationTableViewController.h; sourceTree = "<group>"; };
+		CF9F00851BE268FF00880D5E /* ExacerbationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExacerbationTableViewController.m; sourceTree = "<group>"; };
+		CF9F00881BE26A9900880D5E /* NewExacerbationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewExacerbationTableViewController.h; sourceTree = "<group>"; };
+		CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewExacerbationTableViewController.m; sourceTree = "<group>"; };
 		CFD00BC91BD9265B0033B650 /* condition_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = condition_report.png; path = Images/condition_report.png; sourceTree = "<group>"; };
 		CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exacerbation.jpg; path = Images/exacerbation.jpg; sourceTree = "<group>"; };
 		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
@@ -333,6 +342,7 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
+				CF9F00871BE26A8200880D5E /* Exacerbation */,
 				CFDB5B271BE11EAE006D8857 /* ConditionReports */,
 				CFE9DA991BDA80F9005D507C /* MedicalHistory */,
 				CF0147C31BD9699A00E4EE07 /* LabResults */,
@@ -342,8 +352,21 @@
 				CFE9DA9B1BDA8137005D507C /* MedHistorySelectionViewController.m */,
 				CFDB5B211BE11CD2006D8857 /* ConditionReportTableViewController.h */,
 				CFDB5B221BE11CD2006D8857 /* ConditionReportTableViewController.m */,
+				CF9F00811BE2624800880D5E /* ChartsTableViewController.h */,
+				CF9F00821BE2624800880D5E /* ChartsTableViewController.m */,
+				CF9F00841BE268FF00880D5E /* ExacerbationTableViewController.h */,
+				CF9F00851BE268FF00880D5E /* ExacerbationTableViewController.m */,
 			);
 			name = HomeViews;
+			sourceTree = "<group>";
+		};
+		CF9F00871BE26A8200880D5E /* Exacerbation */ = {
+			isa = PBXGroup;
+			children = (
+				CF9F00881BE26A9900880D5E /* NewExacerbationTableViewController.h */,
+				CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */,
+			);
+			name = Exacerbation;
 			sourceTree = "<group>";
 		};
 		CFDB5B271BE11EAE006D8857 /* ConditionReports */ = {
@@ -496,10 +519,13 @@
 			files = (
 				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
 				CF82A85A1BDEB91500CBCB7B /* ScheduleTableViewController.m in Sources */,
+				CF9F00861BE268FF00880D5E /* ExacerbationTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CFDB5B261BE11E42006D8857 /* ConditionReportCell.m in Sources */,
+				CF9F008A1BE26A9900880D5E /* NewExacerbationTableViewController.m in Sources */,
 				CFDB5B301BE12394006D8857 /* SymptomTableViewController.m in Sources */,
 				CFDB5B231BE11CD2006D8857 /* ConditionReportTableViewController.m in Sources */,
+				CF9F00831BE2624800880D5E /* ChartsTableViewController.m in Sources */,
 				CFE9DA9C1BDA8137005D507C /* MedHistorySelectionViewController.m in Sources */,
 				CF8BC41C1BD7E4760088F6B9 /* main.m in Sources */,
 				CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */,

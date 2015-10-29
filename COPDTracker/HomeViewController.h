@@ -10,6 +10,8 @@
 #import "LabResultsTableViewController.h"
 #import "MedicalHistoryTableViewController.h"
 #import "ConditionReportTableViewController.h"
+#import "ChartsTableViewController.h"
+#import "ExacerbationTableViewController.h"
 //#import "SideEffectsTableViewController.h"
 
 @interface HomeViewController : UIViewController
@@ -45,6 +47,8 @@
 @property (weak, nonatomic) LabResultsTableViewController *labViewController;
 @property (weak, nonatomic) MedicalHistoryTableViewController *medicalHistoryViewController;
 @property (weak, nonatomic) ConditionReportTableViewController *conditionReportViewController;
+@property (weak, nonatomic) ChartsTableViewController *chartsViewController;
+@property (weak, nonatomic) ExacerbationTableViewController *exacerbationViewController;
 //@property (weak, nonatomic) SideEffectsTableViewController *sideEffectsViewController;
 
 

@@ -1,27 +1,24 @@
 //
-//  SymptomTableViewController.m
+//  ChartsTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/28/15.
+//  Created by Yu Song on 10/29/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "SymptomTableViewController.h"
+#import "ChartsTableViewController.h"
 
-@interface SymptomTableViewController ()
-
+@interface ChartsTableViewController ()
+{
+    NSArray *items;
+}
 @end
 
-@implementation SymptomTableViewController
+@implementation ChartsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    items = @[@"Condition Reports", @"Lab Results", @"Exacerbation", @"Adverse Event"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,12 +30,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 6;
+    return 0;
 }
 
 /*
@@ -95,6 +92,4 @@
 }
 */
 
-- (IBAction)submitButtonAction:(id)sender {
-}
 @end

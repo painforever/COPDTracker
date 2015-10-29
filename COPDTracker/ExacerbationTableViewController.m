@@ -1,18 +1,18 @@
 //
-//  SymptomTableViewController.m
+//  ExacerbationTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/28/15.
+//  Created by Yu Song on 10/29/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "SymptomTableViewController.h"
+#import "ExacerbationTableViewController.h"
 
-@interface SymptomTableViewController ()
+@interface ExacerbationTableViewController ()
 
 @end
 
-@implementation SymptomTableViewController
+@implementation ExacerbationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -33,12 +33,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 1;
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 6;
+    return 0;
 }
 
 /*
@@ -95,6 +95,8 @@
 }
 */
 
-- (IBAction)submitButtonAction:(id)sender {
+- (IBAction)addExacerbationButtonAction:(id)sender {
+    self.neoExacerbationForm = [self.storyboard instantiateViewControllerWithIdentifier:@"NewExacerbationTableViewController"];
+    [self.navigationController pushViewController:self.neoExacerbationForm animated:YES];
 }
 @end

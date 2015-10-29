@@ -1,18 +1,18 @@
 //
-//  SymptomTableViewController.m
+//  NewExacerbationTableViewController.m
 //  COPDTracker
 //
-//  Created by Yu Song on 10/28/15.
+//  Created by Yu Song on 10/29/15.
 //  Copyright © 2015 EFA. All rights reserved.
 //
 
-#import "SymptomTableViewController.h"
+#import "NewExacerbationTableViewController.h"
 
-@interface SymptomTableViewController ()
+@interface NewExacerbationTableViewController ()
 
 @end
 
-@implementation SymptomTableViewController
+@implementation NewExacerbationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,7 +38,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 6;
+    return 5;
 }
 
 /*
@@ -95,6 +95,4 @@
 }
 */
 
-- (IBAction)submitButtonAction:(id)sender {
-}
 @end
