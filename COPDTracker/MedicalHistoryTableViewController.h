@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AddMedicationTableViewController.h"
+#import "MedHistoryCell.h"
 
 @interface MedicalHistoryTableViewController : UITableViewController
 

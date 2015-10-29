@@ -11,24 +11,24 @@
 @implementation Constants
 NSUserDefaults *userDefaults;
 
-//NSString *SERVER_URL = @"http://10.0.80.51:3000/my_rx_tracking/";
+//NSString *SERVER_URL = @"http://10.0.80.51:3000/copd/";
 //NSString *BASE_URL = @"http://10.0.80.51:3000";
-//NSString *DRUG_PHOTO_URL=@"http://10.0.80.51:3000/my_rx_tracking/medications/upload_drug_photo";
-//NSString *AVATAR_URL=@"http://10.0.80.51:3000/my_rx_tracking/profiles/upload_avatar";
+//NSString *DRUG_PHOTO_URL=@"http://10.0.80.51:3000/copd/medications/upload_drug_photo";
+//NSString *AVATAR_URL=@"http://10.0.80.51:3000/copd/profiles/upload_avatar";
 //NSString *WEBSOCKET_URL=@"http://10.0.80.51:8998";
 
 //108.28.88.218:80
-//NSString *SERVER_URL = @"http://108.28.88.218:80/my_rx_tracking/";
+//NSString *SERVER_URL = @"http://108.28.88.218:80/copd/";
 //NSString *BASE_URL = @"http://108.28.88.218:80";
-//NSString *DRUG_PHOTO_URL=@"http://108.28.88.218:80/my_rx_tracking/medications/upload_drug_photo";
-//NSString *AVATAR_URL=@"http://108.28.88.218:80/my_rx_tracking/profiles/upload_avatar";
+//NSString *DRUG_PHOTO_URL=@"http://108.28.88.218:80/copd/medications/upload_drug_photo";
+//NSString *AVATAR_URL=@"http://108.28.88.218:80/copd/profiles/upload_avatar";
 //NSString *WEBSOCKET_URL=@"http://108.28.88.218:80";
 
 
-NSString * AVATAR_URL=@"http://127.0.0.1:3000/my_rx_tracking/profiles/upload_avatar";
-NSString * DRUG_PHOTO_URL=@"http://127.0.0.1:3000/my_rx_tracking/medications/upload_drug_photo";
+NSString * AVATAR_URL=@"http://127.0.0.1:3000/copd/profiles/upload_avatar";
+NSString * DRUG_PHOTO_URL=@"http://127.0.0.1:3000/copd/medications/upload_drug_photo";
 NSString *BASE_URL = @"http://127.0.0.1:3000";
-NSString *SERVER_URL = @"http://127.0.0.1:3000/my_rx_tracking/";
+NSString *SERVER_URL = @"http://127.0.0.1:3000/copd/";
 NSString *WEBSOCKET_URL=@"http://127.0.0.1:3000/";
 
 //SRWebSocket *websocket;

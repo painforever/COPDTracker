@@ -19,11 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpControls];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -63,6 +58,13 @@
 }
 
 - (IBAction)save_action:(id)sender {
+    if (![self globallyValidateUserInputs:@[self.testDate, self.testResult, self.labType]])
+        return;
+    [[AFNetwork getAFManager] POST:[SERVER_URL stringByAppendingString:@"labresults"] parameters:@{@"": @""} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
     [self showAlert:@"Success" withMessage:@"Lab test result added."];
     [self.navigationController popViewControllerAnimated:YES];
 }

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NewLabResultsFormTableViewController.h"
-
+#import "LabResultCell.h"
 @interface LabResultsTableViewController : UITableViewController
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *addNewLabButton;
 

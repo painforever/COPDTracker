@@ -38,6 +38,8 @@
 		CF9F00831BE2624800880D5E /* ChartsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00821BE2624800880D5E /* ChartsTableViewController.m */; };
 		CF9F00861BE268FF00880D5E /* ExacerbationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00851BE268FF00880D5E /* ExacerbationTableViewController.m */; };
 		CF9F008A1BE26A9900880D5E /* NewExacerbationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */; };
+		CF9F008D1BE2940600880D5E /* LabResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F008C1BE2940600880D5E /* LabResultCell.m */; };
+		CF9F00901BE298BB00880D5E /* MedHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */; };
 		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; };
 		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; };
 		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; };
@@ -107,6 +109,10 @@
 		CF9F00851BE268FF00880D5E /* ExacerbationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExacerbationTableViewController.m; sourceTree = "<group>"; };
 		CF9F00881BE26A9900880D5E /* NewExacerbationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewExacerbationTableViewController.h; sourceTree = "<group>"; };
 		CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewExacerbationTableViewController.m; sourceTree = "<group>"; };
+		CF9F008B1BE2940600880D5E /* LabResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabResultCell.h; sourceTree = "<group>"; };
+		CF9F008C1BE2940600880D5E /* LabResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabResultCell.m; sourceTree = "<group>"; };
+		CF9F008E1BE298BB00880D5E /* MedHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedHistoryCell.h; sourceTree = "<group>"; };
+		CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedHistoryCell.m; sourceTree = "<group>"; };
 		CFD00BC91BD9265B0033B650 /* condition_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = condition_report.png; path = Images/condition_report.png; sourceTree = "<group>"; };
 		CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exacerbation.jpg; path = Images/exacerbation.jpg; sourceTree = "<group>"; };
 		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
@@ -169,6 +175,10 @@
 			children = (
 				CFDB5B241BE11E42006D8857 /* ConditionReportCell.h */,
 				CFDB5B251BE11E42006D8857 /* ConditionReportCell.m */,
+				CF9F008B1BE2940600880D5E /* LabResultCell.h */,
+				CF9F008C1BE2940600880D5E /* LabResultCell.m */,
+				CF9F008E1BE298BB00880D5E /* MedHistoryCell.h */,
+				CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -522,6 +532,8 @@
 				CF9F00861BE268FF00880D5E /* ExacerbationTableViewController.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CFDB5B261BE11E42006D8857 /* ConditionReportCell.m in Sources */,
+				CF9F00901BE298BB00880D5E /* MedHistoryCell.m in Sources */,
+				CF9F008D1BE2940600880D5E /* LabResultCell.m in Sources */,
 				CF9F008A1BE26A9900880D5E /* NewExacerbationTableViewController.m in Sources */,
 				CFDB5B301BE12394006D8857 /* SymptomTableViewController.m in Sources */,
 				CFDB5B231BE11CD2006D8857 /* ConditionReportTableViewController.m in Sources */,

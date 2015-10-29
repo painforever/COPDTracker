@@ -11,6 +11,7 @@
 @interface AdverseEventTableViewController ()
 {
     NewAdverseEventTableViewController *addAdverseEventForm;
+    NSMutableArray *table_data;
 }
 @end
 
@@ -18,7 +19,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"adverse_event_reportings"] parameters:@{@"patient_id": [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        NSLog(@"kasa %@", [responseObject description]);
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        
+    }];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -35,12 +40,12 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return table_data.count;
 }
 
 /*
