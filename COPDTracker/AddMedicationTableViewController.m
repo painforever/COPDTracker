@@ -47,4 +47,15 @@
         [self.navigationController pushViewController:scheduleTableView animated:YES];
     }
 }
+- (IBAction)saveAction:(id)sender {
+    if (![self globallyValidateUserInputs:@[self.med_name_textfield, self.start_date_textfield, self.end_date_textfield, self.administration_method_textfield]]) {
+        return;
+    }
+    //construct the parameters
+    [[AFNetwork getAFManager] POST:[SERVER_URL stringByAppendingString:@"rxs"] parameters:@{@"prm": @{@"patient_id": [userDefaults valueForKey:@"patient_id"], @"prescribed_date" : self.start_date_textfield.text, @"end_date": self.end_date_textfield.text, @"dosage": self.amount, @"dosage_unit": self.unit_of_measure, @"route_name": self.administration_method_textfield.text}} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+        [self showAlert:@"Success" withMessage:@"Add success!"];
+    } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
+        NSLog(@"failed.");
+    }];
+}
 @end

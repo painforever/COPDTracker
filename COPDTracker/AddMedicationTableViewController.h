@@ -30,4 +30,5 @@
 //2 views, dosage and schedule
 @property (strong, nonatomic) DosageTableViewController *dosageTableView;
 @property (strong, nonatomic) ScheduleTableViewController *scheduleTableView;
+- (IBAction)saveAction:(id)sender;
 @end

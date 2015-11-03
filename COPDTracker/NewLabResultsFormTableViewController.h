@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *testDate;
 @property (weak, nonatomic) IBOutlet UITextField *testResult;
 @property (weak, nonatomic) IBOutlet UITextField *labType;
+@property (weak, nonatomic) IBOutlet UITextField *unit;
 
 @property (strong, nonatomic) LabTypesTableViewController *typesViewController;
 - (IBAction)save_action:(id)sender;

@@ -54,5 +54,8 @@
 
 -(void)buildCustomPickerView: (UIPickerView *)pickerView withArray: (NSArray *)arr withUITextField: (UITextField *)textField withDoneButton: (UIBarButtonItem *)doneButton;
 
+-(NSString *)showNullIfNull: (NSString *)str;
+-(NSString *)showNullIfNullWithPrefix: (NSString *)str withPrefix: (NSString *)prefix;
+
 -(void)getSelf;
 @end

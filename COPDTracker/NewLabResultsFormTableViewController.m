@@ -60,12 +60,11 @@
 - (IBAction)save_action:(id)sender {
     if (![self globallyValidateUserInputs:@[self.testDate, self.testResult, self.labType]])
         return;
-    [[AFNetwork getAFManager] POST:[SERVER_URL stringByAppendingString:@"labresults"] parameters:@{@"": @""} success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        
+    [[AFNetwork getAFManager] POST:[SERVER_URL stringByAppendingString:@"labresults"] parameters:@{@"patient_test": @{@"patient_id": [userDefaults valueForKey:@"patient_id"], @"test_date": self.testDate.text, @"result": self.testResult.text, @"test_type": self.labType.text, @"units": self.unit.text}} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [self showAlert:@"Success" withMessage:@"Lab test result added."];
+        [self.navigationController popViewControllerAnimated:YES];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        
+        [self showAlert:@"Failed" withMessage:@"Something wrong might happen in the server."];
     }];
-    [self showAlert:@"Success" withMessage:@"Lab test result added."];
-    [self.navigationController popViewControllerAnimated:YES];
 }
 @end

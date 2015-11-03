@@ -19,6 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"labresults"] parameters:@{@"patient_id": [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        table_data = (NSMutableArray *)responseObject;
+        [self.tableView reloadData];
+    } failure:^(AFHTTPRequestOperation * operation, NSError * error) {
+        NSLog(@"failed to load data");
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,7 +47,11 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LabResultCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-    
+    NSDictionary *dic = [table_data objectAtIndex:indexPath.row];
+    cell.test_date.text = [NSString stringWithFormat:@"Date: %@", dic[@"test_date"]];
+    cell.test_type.text = [NSString stringWithFormat:@"Type: %@", dic[@"test_type"]];
+    cell.result.text = [NSString stringWithFormat:@"Result: %@", dic[@"result"]];
+    cell.unit.text = [NSString stringWithFormat:@"unit: %@", dic[@"units"]];
     return cell;
 }
 

@@ -199,6 +199,18 @@
     textField.inputAccessoryView = mypickerToolbar;
 }
 
+-(NSString *)showNullIfNull:(NSString *)str{
+    if ([str isEqual: [NSNull null]] || [[self trim:str] length] == 0) {
+        return @"no value";
+    }
+    return str;
+}
+
+-(NSString *)showNullIfNullWithPrefix:(NSString *)str withPrefix:(NSString *)prefix{
+    NSString *res = [NSString stringWithFormat:@"%@ %@", prefix, [self showNullIfNull:str]];
+    return res;
+}
+
 -(void)getSelf{
     NSLog(@"self: %@", [[self class] description]);
 }
