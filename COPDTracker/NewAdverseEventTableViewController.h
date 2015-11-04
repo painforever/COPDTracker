@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Manifest.h"
 
-@interface NewAdverseEventTableViewController : UITableViewController
+@interface NewAdverseEventTableViewController : UITableViewController<UIPickerViewDataSource, UIPickerViewDelegate, UIActionSheetDelegate, UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *eventName;
 @property (strong, nonatomic) IBOutlet UITextField *relatedDrug;
 @property (strong, nonatomic) IBOutlet UITextField *notes;
 @property (strong, nonatomic) IBOutlet UITextField *date;
+@property (strong, nonatomic) UIActionSheet *actionSheet;
 
 @property (strong, nonatomic) IBOutlet UIButton *submitButton;
 - (IBAction)submitButtonAction:(id)sender;

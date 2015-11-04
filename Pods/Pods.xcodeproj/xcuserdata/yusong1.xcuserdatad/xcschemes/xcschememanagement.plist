@@ -14,17 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>MMPickerView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>SocketRocket.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Underscore.m.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,12 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>393CB9DDA0EE59678606C7F6E59CA830</key>
+		<key>1F8CE18E88ED011239CE72546A04587A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EFACD6274067C223AF1A864C04B1254</key>
+		<key>395372BB09FB899D3CA63071652125FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>54B260ABCB73745A29C8541C5E9C9BC5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,12 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D60A59B4C79D5C58E2FC99DF35AF30C</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>66BD50722EF34475EFD327A763547E33</key>
+		<key>7679EBA602C75A695C9369B763A9CA31</key>
 		<dict>
 			<key>primary</key>
 			<true/>

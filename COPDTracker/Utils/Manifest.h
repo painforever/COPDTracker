@@ -12,9 +12,8 @@
 #import "AFNetwork.h"
 #import "UIViewController+SharedUIMethods.h"
 #import "File.h"
-
-//#import "Underscore.h"
-//#define _ Underscore
+#import "Underscore.h"
+#define _ Underscore
 
 @interface Manifest : NSObject
 

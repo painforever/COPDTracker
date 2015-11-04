@@ -44,11 +44,14 @@
             //2, user_id
             //3, all drugs
             //4, all administration methods
+            //5, all side effects, for default
             userDefaults = [NSUserDefaults standardUserDefaults];
             [userDefaults setValue:user[@"user_id"] forKey:@"user_id"];
             [userDefaults setValue:user[@"patient_id"] forKey:@"patient_id"];
             [userDefaults setObject:@[@"Advair", @"albuterol", @"Asmanex",@"Atrovent",@"Breo Ellipta",@"budesonide",@"Chantix",@"Combivent",@"Daliresp",@"Flovent",@"fluticasone",@"Foradil", @"levalbuterol", @"Prednisone", @"ProAir", @"Proventil HFA", @"Pulmicort", @"QVAR", @"serevent", @"Spiriva", @"Symbicort", @"Theophylline", @"xopenex", @"Zyban"] forKey:@"copd_drugs"];
             [userDefaults setObject:@[@"ORAL",@"INJECTION",@"INTRAVENOUS",@"PARENTERAL",@"SUBCUTANEOUS",@"INHALATION", @"TOPICAL", @"TAPE",@"INTRAMUSCULAR INJECTION", @"INTRA-ARTICULAR INJECTION", @"INTRALESIONAL INJECTION", @"RECTAL"] forKey:@"administration_methods"];
+            
+            [userDefaults setObject:@[@"drizzle", @"vomit", @"Headache", @"Insomia", @"diarrhea", @"fever"] forKey:@"side_effects"];
             //redirect
             UITabBarController *tabBarController = [self.storyboard instantiateViewControllerWithIdentifier:@"tabBarController"];
             AppDelegate *ddd = [UIApplication sharedApplication].delegate;
