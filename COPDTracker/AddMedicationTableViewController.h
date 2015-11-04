@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "DosageTableViewController.h"
 #import "ScheduleTableViewController.h"
+#import "UIViewController+SharedUIMethods.h"
 
 @class DosageTableViewController;
 @class ScheduleTableViewController;
 
-@interface AddMedicationTableViewController : UITableViewController
+@interface AddMedicationTableViewController : UITableViewController<UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *med_name_textfield;
 @property (strong, nonatomic) IBOutlet UITextField *start_date_textfield;
 @property (weak, nonatomic) IBOutlet UITextField *end_date_textfield;

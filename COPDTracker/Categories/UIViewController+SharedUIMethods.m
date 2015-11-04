@@ -211,6 +211,12 @@
     return res;
 }
 
+-(void)buildDateTimePickerView:(UIDatePicker *)datePicker withNSDate:(NSDate *)date withUITextField:(UITextField *)textField withDatePickerMode:(UIDatePickerMode *)mode{
+    [datePicker setDate: date];
+    datePicker.datePickerMode = mode;
+    [textField setInputView:datePicker];
+}
+
 -(void)getSelf{
     NSLog(@"self: %@", [[self class] description]);
 }

@@ -54,6 +54,8 @@
 
 -(void)buildCustomPickerView: (UIPickerView *)pickerView withArray: (NSArray *)arr withUITextField: (UITextField *)textField withDoneButton: (UIBarButtonItem *)doneButton;
 
+-(void)buildDateTimePickerView: (UIDatePicker *)datePicker withNSDate: (NSDate *)date withUITextField: (UITextField *)textField withDatePickerMode: (UIDatePickerMode *)mode;
+
 -(NSString *)showNullIfNull: (NSString *)str;
 -(NSString *)showNullIfNullWithPrefix: (NSString *)str withPrefix: (NSString *)prefix;
 

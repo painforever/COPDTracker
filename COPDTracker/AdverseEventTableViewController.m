@@ -19,8 +19,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"adverse_event_reportings"] parameters:@{@"patient_id": [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"adverse_event_reportings.json"] parameters:@{@"patient_id": [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"kasa %@", [responseObject description]);
+        table_data = (NSMutableArray *)responseObject;
+        [self.tableView reloadData];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
     }];
@@ -48,15 +50,15 @@
     return table_data.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    AdverseEventCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    NSDictionary *dic = [table_data objectAtIndex:indexPath.row];
+    cell.report_date.text = [NSString stringWithFormat:@"Date: %@", dic[@"ae"][@"created_at"]];
+    cell.related_drug.text = [NSString stringWithFormat:@"Related drug: %@", dic[@"medication"][@"drug_name"]];
+    cell.side_effects.text = [NSString stringWithFormat:@"Reason: %@", dic[@"ae"][@"side_effects"]];
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.

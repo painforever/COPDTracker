@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "NewAdverseEventTableViewController.h"
 #import "Manifest.h"
+#import "AdverseEventCell.h"
 
 @interface AdverseEventTableViewController : UITableViewController
 

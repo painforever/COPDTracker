@@ -21,18 +21,21 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - IQKeyboardManager (3.3.2)
+  - MMPickerView (0.0.1)
   - SocketRocket (0.4.1)
   - ZBarSDK (1.3.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - IQKeyboardManager
+  - MMPickerView (~> 0.0.1)
   - SocketRocket
   - ZBarSDK
 
 SPEC CHECKSUMS:
   AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
   IQKeyboardManager: d863eb0bca424d1f6dad6bdd1f856af52664add8
+  MMPickerView: 6ba6bd5d0ef1fd60372d3f5e4fa80ad4237a86a0
   SocketRocket: ee0b5c34182d37bb4f1f8d628bbe737718126daa
   ZBarSDK: 4c1b5daeb7d6cc67dc9355e690af0230a661f6ec
 
