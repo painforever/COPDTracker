@@ -13,6 +13,7 @@
 +(NSString*)DataToString:(NSData*)data;
 +(NSData*)StringToData: (NSString*)str;
 +(NSString *)ObjectToJSON: (id)obj;
++(NSString *)NSDictionaryToJSON: (NSDictionary *)dic;
 +(NSString *)ConvertDictionaryToQueryString:(NSDictionary *)dic;
 +(NSString *)ConvertBOOLToString: (BOOL)val;
 +(NSMutableArray *)handleNilForArray: (NSData *)data;

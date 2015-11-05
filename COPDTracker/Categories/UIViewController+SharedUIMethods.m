@@ -217,6 +217,11 @@
     [textField setInputView:datePicker];
 }
 
+-(NSString *)convertBOOL: (UISwitch *)switcher{
+    if(switcher.on) return @"YES";
+    else return @"NO";
+}
+
 -(void)getSelf{
     NSLog(@"self: %@", [[self class] description]);
 }

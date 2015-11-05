@@ -9,14 +9,21 @@
 #import "ExacerbationTableViewController.h"
 
 @interface ExacerbationTableViewController ()
-
+{
+    NSMutableArray *table_date;
+}
 @end
 
 @implementation ExacerbationTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"excerbations"] parameters:@{@"patient_id" : [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+        table_date = (NSMutableArray *)responseObject;
+        [self.tableView reloadData];
+    } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
+        
+    }];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -33,23 +40,25 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return table_date.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    ExcerbationCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    NSDictionary *dic = [table_date objectAtIndex:indexPath.row];
+    cell.symptom.text = [NSString stringWithFormat:@"Symptom: %@", dic[@"symptom"]];
+    cell.start_date.text = [NSString stringWithFormat:@"start date: %@", dic[@"start_date"]];
+    cell.end_date.text = [NSString stringWithFormat:@"end date: %@", dic[@"end_date"]];
+    cell.indensity.text = [NSString stringWithFormat:@"instendity: %@", dic[@"intensity"]];
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

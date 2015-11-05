@@ -24,6 +24,12 @@
     NSString *jsonStr=[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     return jsonStr;
 }
++(NSString *)NSDictionaryToJSON:(NSDictionary *)dic{
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dic options:0 error:nil];
+    NSString *JSONString = [[NSString alloc] initWithBytes:[jsonData bytes] length:[jsonData length] encoding:NSUTF8StringEncoding];
+    NSLog(@"JSON OUTPUT: %@",JSONString);
+    return JSONString;
+}
 
 +(NSString*)ConvertDictionaryToQueryString:(NSDictionary *)dic{
     NSMutableArray *container=[[NSMutableArray alloc] init];

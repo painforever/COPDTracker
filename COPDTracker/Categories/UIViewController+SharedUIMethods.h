@@ -59,5 +59,7 @@
 -(NSString *)showNullIfNull: (NSString *)str;
 -(NSString *)showNullIfNullWithPrefix: (NSString *)str withPrefix: (NSString *)prefix;
 
+-(NSString *)convertBOOL: (UISwitch *)switcher;
+
 -(void)getSelf;
 @end

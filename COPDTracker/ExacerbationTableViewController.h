@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "NewExacerbationTableViewController.h"
+#import "ExcerbationCell.h"
+#import "Manifest.h"
+
 @interface ExacerbationTableViewController : UITableViewController
 @property (strong, nonatomic) NewExacerbationTableViewController *neoExacerbationForm;
 

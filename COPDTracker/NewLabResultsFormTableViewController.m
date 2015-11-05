@@ -43,7 +43,6 @@
     }
 }
 
-
 -(void)setUpControls{
     testDatePicker = [[UIDatePicker alloc]init];
     [testDatePicker setDate:[NSDate date]];

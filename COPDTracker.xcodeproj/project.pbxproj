@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */; };
 		CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */; };
+		CF08C4EE1BEBF1A50040812A /* ExcerbationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08C4ED1BEBF1A50040812A /* ExcerbationCell.m */; };
 		CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */; };
 		CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4091BD9777D00ACA445 /* AFNetwork.m */; };
 		CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A40E1BD977F300ACA445 /* Manifest.m */; };
@@ -40,6 +41,7 @@
 		CF9F008A1BE26A9900880D5E /* NewExacerbationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */; };
 		CF9F008D1BE2940600880D5E /* LabResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F008C1BE2940600880D5E /* LabResultCell.m */; };
 		CF9F00901BE298BB00880D5E /* MedHistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */; };
+		CFCF69D41BEBB74A00D20868 /* ExcerbationTypesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCF69D31BEBB74A00D20868 /* ExcerbationTypesTable.m */; };
 		CFD00BCC1BD9265B0033B650 /* condition_report.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BC91BD9265B0033B650 /* condition_report.png */; };
 		CFD00BCD1BD9265B0033B650 /* exacerbation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */; };
 		CFD00BCE1BD9265B0033B650 /* patient_education.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFD00BCB1BD9265B0033B650 /* patient_education.jpg */; };
@@ -65,6 +67,8 @@
 		CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLabResultsFormTableViewController.m; sourceTree = "<group>"; };
 		CF0147C71BD96F3700E4EE07 /* LabTypesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabTypesTableViewController.h; sourceTree = "<group>"; };
 		CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabTypesTableViewController.m; sourceTree = "<group>"; };
+		CF08C4EC1BEBF1A50040812A /* ExcerbationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerbationCell.h; sourceTree = "<group>"; };
+		CF08C4ED1BEBF1A50040812A /* ExcerbationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerbationCell.m; sourceTree = "<group>"; };
 		CF55A4031BD9775B00ACA445 /* UIViewController+SharedUIMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SharedUIMethods.h"; path = "Categories/UIViewController+SharedUIMethods.h"; sourceTree = "<group>"; };
 		CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SharedUIMethods.m"; path = "Categories/UIViewController+SharedUIMethods.m"; sourceTree = "<group>"; };
 		CF55A4081BD9777D00ACA445 /* AFNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetwork.h; path = Utils/AFNetwork.h; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 		CF9F008C1BE2940600880D5E /* LabResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabResultCell.m; sourceTree = "<group>"; };
 		CF9F008E1BE298BB00880D5E /* MedHistoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedHistoryCell.h; sourceTree = "<group>"; };
 		CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedHistoryCell.m; sourceTree = "<group>"; };
+		CFCF69D21BEBB74A00D20868 /* ExcerbationTypesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerbationTypesTable.h; sourceTree = "<group>"; };
+		CFCF69D31BEBB74A00D20868 /* ExcerbationTypesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerbationTypesTable.m; sourceTree = "<group>"; };
 		CFD00BC91BD9265B0033B650 /* condition_report.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = condition_report.png; path = Images/condition_report.png; sourceTree = "<group>"; };
 		CFD00BCA1BD9265B0033B650 /* exacerbation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = exacerbation.jpg; path = Images/exacerbation.jpg; sourceTree = "<group>"; };
 		CFD00BCB1BD9265B0033B650 /* patient_education.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patient_education.jpg; path = Images/patient_education.jpg; sourceTree = "<group>"; };
@@ -184,6 +190,8 @@
 				CF9F008F1BE298BB00880D5E /* MedHistoryCell.m */,
 				CFDD7CB01BEA953C00594458 /* AdverseEventCell.h */,
 				CFDD7CB11BEA953C00594458 /* AdverseEventCell.m */,
+				CF08C4EC1BEBF1A50040812A /* ExcerbationCell.h */,
+				CF08C4ED1BEBF1A50040812A /* ExcerbationCell.m */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -380,6 +388,8 @@
 			children = (
 				CF9F00881BE26A9900880D5E /* NewExacerbationTableViewController.h */,
 				CF9F00891BE26A9900880D5E /* NewExacerbationTableViewController.m */,
+				CFCF69D21BEBB74A00D20868 /* ExcerbationTypesTable.h */,
+				CFCF69D31BEBB74A00D20868 /* ExcerbationTypesTable.m */,
 			);
 			name = Exacerbation;
 			sourceTree = "<group>";
@@ -535,6 +545,7 @@
 				CFD00BD71BD9550E0033B650 /* MedicalHistoryTableViewController.m in Sources */,
 				CF82A85A1BDEB91500CBCB7B /* ScheduleTableViewController.m in Sources */,
 				CF9F00861BE268FF00880D5E /* ExacerbationTableViewController.m in Sources */,
+				CFCF69D41BEBB74A00D20868 /* ExcerbationTypesTable.m in Sources */,
 				CF8BC41F1BD7E4760088F6B9 /* AppDelegate.m in Sources */,
 				CFDB5B261BE11E42006D8857 /* ConditionReportCell.m in Sources */,
 				CF9F00901BE298BB00880D5E /* MedHistoryCell.m in Sources */,
@@ -558,6 +569,7 @@
 				CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
 				CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */,
+				CF08C4EE1BEBF1A50040812A /* ExcerbationCell.m in Sources */,
 				CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */,
 				CFDD7CB21BEA953C00594458 /* AdverseEventCell.m in Sources */,
 				CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */,
