@@ -1,7 +1,10 @@
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
 EXCLUDED_SOURCE_FILE_NAMES[sdk=iphoneos*][arch=*] = ZBarReaderViewImpl_Simulator.m
-EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*] = ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m
+EXCLUDED_SOURCE_FILE_NAMES[sdk=iphonesimulator*][arch=*] = ZBarReaderViewImpl_Capture.m ZBarCaptureReader.m
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 NDEBUG=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/Underscore.m" "${PODS_ROOT}/Headers/Public/ZBarSDK"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/IQKeyboardManager" -isystem "${PODS_ROOT}/Headers/Public/SocketRocket" -isystem "${PODS_ROOT}/Headers/Public/Underscore.m" -isystem "${PODS_ROOT}/Headers/Public/ZBarSDK"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"IQKeyboardManager" -l"SocketRocket" -l"Underscore.m" -l"ZBarSDK" -l"iconv" -l"icucore" -framework "AVFoundation" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AFNetworking.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Charts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FSLineChart.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/IQKeyboardManager.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/SocketRocket.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Underscore_m.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/ZBarSDK.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "Charts" -framework "FSLineChart" -framework "IQKeyboardManager" -framework "SocketRocket" -framework "Underscore_m" -framework "ZBarSDK"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
 PODS_ROOT = ${SRCROOT}/Pods

@@ -10,6 +10,7 @@
 #import "AFNetwork.h"
 #import "Constants.h"
 #import "Manifest.h"
+@import Charts;
 
 @interface UIViewController (SharedUIMethods)
 

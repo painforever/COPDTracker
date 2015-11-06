@@ -14,7 +14,7 @@
 @class SymptomTableViewController;
 @class RespirationTableViewController;
 
-@interface NewConditionReportTableViewController : UITableViewController
+@interface NewConditionReportTableViewController : UITableViewController<UITextFieldDelegate>
 @property (strong, nonatomic) RespirationTableViewController *respirationViewController;
 @property (strong, nonatomic) SymptomTableViewController *symptomViewController;
 

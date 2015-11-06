@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42DE1162EF303494D7384E2F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4B5816AE96379576ADEF2B /* Pods.framework */; };
 		CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */; };
 		CF0147C91BD96F3800E4EE07 /* LabTypesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */; };
 		CF08C4EE1BEBF1A50040812A /* ExcerbationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF08C4ED1BEBF1A50040812A /* ExcerbationCell.m */; };
+		CF2C031E1BED121C00091BE1 /* LabResultsCharts.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C031D1BED121C00091BE1 /* LabResultsCharts.m */; };
 		CF55A4051BD9775B00ACA445 /* UIViewController+SharedUIMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */; };
 		CF55A40A1BD9777D00ACA445 /* AFNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A4091BD9777D00ACA445 /* AFNetwork.m */; };
 		CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */ = {isa = PBXBuildFile; fileRef = CF55A40E1BD977F300ACA445 /* Manifest.m */; };
@@ -57,11 +59,11 @@
 		CFE9DA9F1BDAFA84005D507C /* AdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DA9E1BDAFA84005D507C /* AdverseEventTableViewController.m */; };
 		CFE9DAA61BDAFE6E005D507C /* NewAdverseEventTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */; };
 		CFEEFE141BDB0AEA00771292 /* AddMedicationTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEEFE131BDB0AEA00771292 /* AddMedicationTableViewController.m */; };
-		ED413DB9284FB07795296915 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AB0BB2F15FA6A35CD18843 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3113FA36948B6E70242FC8E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4B4B5816AE96379576ADEF2B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A482122DA58CF5624CB12A4B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CF0147C41BD969C100E4EE07 /* NewLabResultsFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLabResultsFormTableViewController.h; sourceTree = "<group>"; };
 		CF0147C51BD969C100E4EE07 /* NewLabResultsFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLabResultsFormTableViewController.m; sourceTree = "<group>"; };
@@ -69,6 +71,8 @@
 		CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabTypesTableViewController.m; sourceTree = "<group>"; };
 		CF08C4EC1BEBF1A50040812A /* ExcerbationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExcerbationCell.h; sourceTree = "<group>"; };
 		CF08C4ED1BEBF1A50040812A /* ExcerbationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExcerbationCell.m; sourceTree = "<group>"; };
+		CF2C031C1BED121C00091BE1 /* LabResultsCharts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabResultsCharts.h; sourceTree = "<group>"; };
+		CF2C031D1BED121C00091BE1 /* LabResultsCharts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabResultsCharts.m; sourceTree = "<group>"; };
 		CF55A4031BD9775B00ACA445 /* UIViewController+SharedUIMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+SharedUIMethods.h"; path = "Categories/UIViewController+SharedUIMethods.h"; sourceTree = "<group>"; };
 		CF55A4041BD9775B00ACA445 /* UIViewController+SharedUIMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+SharedUIMethods.m"; path = "Categories/UIViewController+SharedUIMethods.m"; sourceTree = "<group>"; };
 		CF55A4081BD9777D00ACA445 /* AFNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetwork.h; path = Utils/AFNetwork.h; sourceTree = "<group>"; };
@@ -147,7 +151,6 @@
 		CFE9DAA51BDAFE6E005D507C /* NewAdverseEventTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAdverseEventTableViewController.m; sourceTree = "<group>"; };
 		CFEEFE121BDB0AEA00771292 /* AddMedicationTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMedicationTableViewController.h; sourceTree = "<group>"; };
 		CFEEFE131BDB0AEA00771292 /* AddMedicationTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMedicationTableViewController.m; sourceTree = "<group>"; };
-		F1AB0BB2F15FA6A35CD18843 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED413DB9284FB07795296915 /* libPods.a in Frameworks */,
+				42DE1162EF303494D7384E2F /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +168,7 @@
 		27477A9CEC224516854F7EFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F1AB0BB2F15FA6A35CD18843 /* libPods.a */,
+				4B4B5816AE96379576ADEF2B /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,6 +208,15 @@
 				CF0147C81BD96F3700E4EE07 /* LabTypesTableViewController.m */,
 			);
 			name = LabResults;
+			sourceTree = "<group>";
+		};
+		CF2C031B1BED11FE00091BE1 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C031C1BED121C00091BE1 /* LabResultsCharts.h */,
+				CF2C031D1BED121C00091BE1 /* LabResultsCharts.m */,
+			);
+			name = Charts;
 			sourceTree = "<group>";
 		};
 		CF55A4021BD9774A00ACA445 /* Categories */ = {
@@ -365,6 +377,7 @@
 		CF8BC4A71BD8199C0088F6B9 /* HomeViews */ = {
 			isa = PBXGroup;
 			children = (
+				CF2C031B1BED11FE00091BE1 /* Charts */,
 				CF9F00871BE26A8200880D5E /* Exacerbation */,
 				CFDB5B271BE11EAE006D8857 /* ConditionReports */,
 				CFE9DA991BDA80F9005D507C /* MedicalHistory */,
@@ -435,6 +448,7 @@
 				CF8BC4141BD7E4760088F6B9 /* Frameworks */,
 				CF8BC4151BD7E4760088F6B9 /* Resources */,
 				B910889EBCA973E7C70E1BB8 /* Copy Pods Resources */,
+				57A3815240622627E09F49C6 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -505,6 +519,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		57A3815240622627E09F49C6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		B910889EBCA973E7C70E1BB8 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -569,6 +598,7 @@
 				CF55A40F1BD977F300ACA445 /* Manifest.m in Sources */,
 				CF8BC49D1BD814E00088F6B9 /* LoginViewController.m in Sources */,
 				CF55A4181BD9787500ACA445 /* JSONHandler.m in Sources */,
+				CF2C031E1BED121C00091BE1 /* LabResultsCharts.m in Sources */,
 				CF08C4EE1BEBF1A50040812A /* ExcerbationCell.m in Sources */,
 				CF0147C61BD969C100E4EE07 /* NewLabResultsFormTableViewController.m in Sources */,
 				CFDD7CB21BEA953C00594458 /* AdverseEventCell.m in Sources */,

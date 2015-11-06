@@ -46,11 +46,6 @@
     MedHistoryCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     NSDictionary *dic = [table_data objectAtIndex: indexPath.row];
     cell.drug_name.text = dic[@"drug_name"];
-//    cell.dosage.text = [NSString stringWithFormat:@"dosage: %@", dic[@"dosage"]];
-//    cell.start_date.text = [NSString stringWithFormat:@"start: %@", dic[@"start_date"]];
-//    cell.end_date.text = [NSString stringWithFormat:@"end: %@", dic[@"end_date"]];
-//    cell.route_name.text = [NSString stringWithFormat:@"route name: %@", dic[@"route_name"]];
-    
     cell.dosage.text = [self showNullIfNullWithPrefix:dic[@"dosage"] withPrefix: @"dosage:"];
     cell.start_date.text = [self showNullIfNullWithPrefix:dic[@"start_date"] withPrefix:@"start:"];
     cell.end_date.text = [self showNullIfNullWithPrefix:dic[@"end_date"] withPrefix:@"end:"];

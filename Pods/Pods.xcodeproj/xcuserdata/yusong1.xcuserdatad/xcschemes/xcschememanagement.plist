@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FSLineChart.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +47,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1F8CE18E88ED011239CE72546A04587A</key>
+		<key>0FC62CEF94064B6C75014EE841C534C5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>395372BB09FB899D3CA63071652125FF</key>
+		<key>24090FBCEF7A50AE384678B5C071804B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>54B260ABCB73745A29C8541C5E9C9BC5</key>
+		<key>2C06E64327F850832481BD61DC97C7EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>55561546406C125B40D3F3C35043B7E7</key>
+		<key>3498A01EA2EBFDE149FD4427425B6459</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7679EBA602C75A695C9369B763A9CA31</key>
+		<key>4878C70B21CA37D7CB8A476BF986741B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94F7F189F3302603E3064AD0A6552133</key>
+		<key>5855D213D188EE14086C1F827DE7B1FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6218FE2B70B49A1A96C5DBEEF8395802</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>769228BE078636DE211ED1DE61AFBF7E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

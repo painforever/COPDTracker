@@ -18,7 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"excerbations"] parameters:@{@"patient_id" : [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"excerbations"] parameters:@{@"patient_id" : [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation * operation, id responseObject) {
         table_date = (NSMutableArray *)responseObject;
         [self.tableView reloadData];
     } failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {

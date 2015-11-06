@@ -9,14 +9,21 @@
 #import "ConditionReportTableViewController.h"
 
 @interface ConditionReportTableViewController ()
-
+{
+    NSMutableArray *table_data;
+}
 @end
 
 @implementation ConditionReportTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    [[AFNetwork getAFManager] GET:[SERVER_URL stringByAppendingString:@"patient_reported_conditions"] parameters:@{@"patient_id": [userDefaults valueForKey:@"patient_id"]} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        table_data = (NSMutableArray *)responseObject;
+        [self.tableView reloadData];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"failed");
+    }];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -33,23 +40,36 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return table_data.count;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    ConditionReportCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
+    NSDictionary *dic = [table_data objectAtIndex:indexPath.row];
+    cell.date_reported.text = dic[@"date_reported"];
+    NSDictionary *condition_description = [NSJSONSerialization JSONObjectWithData:[JSONHandler StringToData:dic[@"condition_description"]] options:NSJSONReadingMutableContainers error:nil];
+    NSDictionary *respiration_dic = condition_description[@"respiration"];
+    NSDictionary *symptom_dic = condition_description[@"symptom"];
+    //respirations
+    cell.smoked.text = [NSString stringWithFormat:@"Smoked: %@", respiration_dic[@"smoke_roday"]];
+    cell.secondhand_smoke.text = [NSString stringWithFormat:@"Secondhand smoked: %@", respiration_dic[@"secondhand_smoker"]];
+    cell.stay_in_pollution.text = [NSString stringWithFormat:@"Stay in pollution: %@", respiration_dic[@"stayin_bad_air"]];
     
-    // Configure the cell...
-    
+    //symptoms
+    cell.exertional_breathless.text = [NSString stringWithFormat:@"Exertional Breathless: %@", symptom_dic[@"exertional_breathless"]];
+    cell.chronic_cough.text = [NSString stringWithFormat:@"Chronic Cough: %@", symptom_dic[@"chronic_cough"]];
+    cell.regular_sputum.text = [NSString stringWithFormat:@"Regular Sputum Production: %@", symptom_dic[@"regular_sputum_production"]];
+    cell.frequent_winter_bronchitis.text = [NSString stringWithFormat:@"Frequent Winter Bronchitis: %@", symptom_dic[@"frequent_winter_bronchitis"]];
+    cell.wheeze.text = [NSString stringWithFormat:@"Wheeze: %@", symptom_dic[@"wheeze"]];
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
